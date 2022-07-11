@@ -79,6 +79,20 @@
             }
         }
 
+        .text-body-2 equal {
+            color: #49AFAE;
+        }
+
+        .text-body-2 men {
+            color: #1d6996;
+        }
+
+        .text-body-2 women {
+            color: #73af48;
+        }
+
+
+
         .blockquote {
             font-size: 32px;
             font-weight: 700;
@@ -200,9 +214,10 @@
                         Among the lesser known elected officials are the members of the municipal councils - the
                         decision-making body governing each of the 290 municipalities of Sweden.
                         <br><br>
-                        The Swedish national parliament and the 21 regional councils have all acheived gender
+                        The Swedish national parliament and the 21 regional councils have all achieved gender
                         parity.
-                        But not all municipal councils are equally represented by men and women.
+                        But not all municipal councils are equally represented by men and women,
+                        according to an analysis made on data on the 12700 members.
                     </p>
                 </div>
             </div>
@@ -214,7 +229,8 @@
 
                     <div class="step" data-step="1">
                         <div class="text-block pa-2">
-                            <p class="text-body-2">Around three-fourth of the municipalities are equally represented
+                            <p class="text-body-2">Around three-fourth of the municipalities are <equal>equally
+                                    represented</equal>
                                 by men and women.<br>
                                 That is, both men and women represent at least 40% and at most 60% in each of these
                                 municipalities</p>
@@ -222,17 +238,18 @@
                     </div>
                     <div class="step" data-step="2">
                         <div class="text-block pa-2">
-                            <p class="text-body-2">In other words, around one-fourth of the municipalities are dominated
-                                by one gender – men
+                            <p class="text-body-2">In other words, around one-fourth of the municipalities are <men>
+                                    dominated by one gender – men</men>
                             </p>
                         </div>
                     </div>
                     <div class="step" data-step="3">
                         <div class="text-block pa-2">
-                            <p class="text-body-2">...and no municipality is dominated by women</p>
+                            <p class="text-body-2">...and no municipality is <women>dominated by women</women>
+                            </p>
                         </div>
                     </div>
-                    <div class="step" data-step="5">
+                    <div class="step" data-step="4">
                         <div class="text-block pa-2">
                             <p class="text-body-2">"Considering the 60–40-principle, Sweden has reached gender parity in
                                 1994. It has since then remained the same. But one can question if the gender parity is
@@ -245,7 +262,8 @@
                     </div>
                     <div class="step" data-step="6">
                         <div class="text-block pa-2">
-                            <p class="text-body-2">90% of the municipalities are dominated by men</p>
+                            <p class="text-body-2">90% of the municipalities are <men>dominated by men</men>
+                            </p>
                         </div>
                     </div>
                     <div class="step" data-step="7">
@@ -257,9 +275,8 @@
                     <div class="step" data-step="8">
                         <div class="text-block pa-2">
                             <p class="text-body-2">Among the five most unequal municipalities, four of them –
-                                Trelleborg, Gnosjö, Båstad, Svedala – are in Skåne county.The fifth one is Ljusnarsberg
-                                in Örebro county.
-                                other one</p>
+                                Trelleborg, Gnosjö, Båstad, Svedala – are in Skåne county. The fifth one is Ljusnarsberg
+                                in Örebro county</p>
                         </div>
                     </div>
                 </div>
@@ -314,6 +331,7 @@
 
         // scrollama event handlers
         function handleStepEnter(response) {
+
             const textblock = step.select(".text-block");
 
             // add color to current step only
@@ -322,12 +340,9 @@
             });
 
             if (response.index == 3 & response.direction == 'down') {
-                //4th slide - dont update
+                //dont update
                 return;
             }
-
-
-
             // update graphic based on step
             const linkHead = 'https://flo.uri.sh/story/1621046/embed#slide-'
             const slide = response.index
