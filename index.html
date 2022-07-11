@@ -196,6 +196,7 @@
         iframe {
             border: unset;
         }
+
     </style>
 </head>
 
@@ -293,33 +294,36 @@
                     </div>
                     <div class="step" data-step="9">
                         <div class="text-block pa-2">
-                            <p class="text-body-2">Moderaterna and Kristdemokraterna are barely equal with almost 60%
-                                dominated by men</p>
+                            <p class="text-body-2">Moderaterna and Kristdemokraterna are barely have equal
+                                representation with almost 60% dominated by men</p>
                         </div>
                     </div>
-
+                    <div class="step" data-step="10">
+                        <div class="text-block pa-2">
+                            <p class="text-body-2">The top men-dominated parties are all political positioned on the
+                                right. Together these parties currently form the opposition</p>
+                        </div>
+                    </div>
                 </div>
-
-
 
                 <div class="col-6 scrolly__chart">
                     <iframe scrolling="no" src="https://flo.uri.sh/story/xxxx/embed#slide-0"></iframe>
                 </div>
             </div>
         </div>
+
         <div class="row justify-content-center">
             <div class="col-lg-7 col-11">
                 <br><br><br><br>
                 <p class="text-body-2 mb-5">
                     <b>Next chapters...</b>
                     <br><br>
-                    - no one from non-binary gender.
+                    chap3: age in Parties
                     <br><br>
-                    - rep in parties.
+                    - Any one from non-binary gender?
                     <br><br>
                     - 1,0% of representatives are foreign citizens
                     <br><br>
-                    - How old are they?
                 </p>
             </div>
         </div>
@@ -381,13 +385,9 @@
             if (response.index == 3 & response.direction == 'down') {
                 //dont update
                 return;
-            }
-            if (response.index > 6) {
+            } else if (response.index > 6) {
                 slide = response.index + 3;
             }
-            // else if (response.index > 6 & response.direction == 'up') {
-            //     slide = response.index - 3;
-            // }
             else {
                 slide = response.index;
             }
