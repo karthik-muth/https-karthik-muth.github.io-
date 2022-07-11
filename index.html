@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Data story with flourish</title>
+    <title>karthik | Swedish municipal councils</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="how-to-make-a-story">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -217,7 +217,7 @@
                         The Swedish national parliament and the 21 regional councils have all achieved gender
                         parity.
                         But not all municipal councils are equally represented by men and women,
-                        according to an analysis made on data from SCB on the 12700 members.
+                        according to an analysis made on data from Valmyndigheten on the 12700 members.
                     </p>
                 </div>
             </div>
@@ -227,7 +227,7 @@
             <div class="row justify-content-center" id="scrolly__section">
                 <div class="col-4 scrolly__content">
 
-                    <div class="step" data-step="1">
+                    <div class="step" data-step="0">
                         <div class="text-block pa-2">
                             <p class="text-body-2">Around three-fourth of the municipalities are <equal>equally
                                     represented</equal>
@@ -236,20 +236,20 @@
                                 municipalities</p>
                         </div>
                     </div>
-                    <div class="step" data-step="2">
+                    <div class="step" data-step="1">
                         <div class="text-block pa-2">
                             <p class="text-body-2">In other words, around one-fourth of the municipalities are <men>
                                     dominated by one gender – men</men>
                             </p>
                         </div>
                     </div>
-                    <div class="step" data-step="3">
+                    <div class="step" data-step="2">
                         <div class="text-block pa-2">
                             <p class="text-body-2">...and no municipality is <women>dominated by women</women>
                             </p>
                         </div>
                     </div>
-                    <div class="step" data-step="4">
+                    <div class="step" data-step="3">
                         <div class="text-block pa-2">
                             <p class="text-body-2">"Considering the 60–40-principle, Sweden has reached gender parity in
                                 1994. It has since then remained the same. But one can question if the gender parity is
@@ -260,25 +260,44 @@
                             </p>
                         </div>
                     </div>
-                    <div class="step" data-step="6">
+                    <div class="step" data-step="4">
                         <div class="text-block pa-2">
                             <p class="text-body-2">90% of the municipalities are <men>dominated by men</men>
                             </p>
                         </div>
                     </div>
-                    <div class="step" data-step="7">
+                    <div class="step" data-step="5">
                         <div class="text-block pa-2">
                             <p class="text-body-2">Trelleborg is the most unequal municipality represented by nearly 75%
                                 men</p>
                         </div>
                     </div>
-                    <div class="step" data-step="8">
+                    <div class="step" data-step="6">
                         <div class="text-block pa-2">
                             <p class="text-body-2">Among the five most unequal municipalities, four of them –
                                 Trelleborg, Gnosjö, Båstad, Svedala – are in Skåne county. The fifth one is Ljusnarsberg
                                 in Örebro county</p>
                         </div>
                     </div>
+                    <!-- chapter 2 -->
+                    <div class="step" data-step="7">
+                        <div class="text-block pa-2">
+                            <p class="text-body-2">Like the inequality in municipalities, not all the parties are equal
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step" data-step="8">
+                        <div class="text-block pa-2">
+                            <p class="text-body-2">Sverigedemokraterna is the only men dominated party in Sweden</p>
+                        </div>
+                    </div>
+                    <div class="step" data-step="9">
+                        <div class="text-block pa-2">
+                            <p class="text-body-2">Moderaterna and Kristdemokraterna are barely equal with almost 60%
+                                dominated by men</p>
+                        </div>
+                    </div>
+
                 </div>
 
 
@@ -294,7 +313,9 @@
                 <p class="text-body-2 mb-5">
                     <b>Next chapters...</b>
                     <br><br>
-                    - no one from third gender.
+                    - no one from non-binary gender.
+                    <br><br>
+                    - rep in parties.
                     <br><br>
                     - 1,0% of representatives are foreign citizens
                     <br><br>
@@ -355,13 +376,21 @@
                 return i === response.index;
             });
 
+            // update graphic based on step
+            const linkHead = 'https://flo.uri.sh/story/1621046/embed#slide-'
             if (response.index == 3 & response.direction == 'down') {
                 //dont update
                 return;
             }
-            // update graphic based on step
-            const linkHead = 'https://flo.uri.sh/story/1621046/embed#slide-'
-            const slide = response.index
+            if (response.index > 6) {
+                slide = response.index + 3;
+            }
+            // else if (response.index > 6 & response.direction == 'up') {
+            //     slide = response.index - 3;
+            // }
+            else {
+                slide = response.index;
+            }
 
             d3.select('.scrolly__chart iframe')
                 .attr('src', linkHead + slide);
@@ -372,14 +401,14 @@
             if (response.index == 6) {
                 // update graphic based on step
                 const linkHead = 'https://flo.uri.sh/story/1621046/embed#slide-'
-                if (response.progress > 0.3 & response.progress < 0.51) {
-                    slide = response.index + 1
+                if (response.progress > 0.2 & response.progress < 0.41) {
+                    slide = response.index + 1;
                 }
-                if (response.progress > 0.5 & response.progress < 0.71) {
-                    slide = response.index + 2
+                if (response.progress > 0.5 & response.progress < 0.61) {
+                    slide = response.index + 2;
                 }
-                if (response.progress > 0.7) {
-                    slide = response.index + 3
+                if (response.progress > 0.6) {
+                    slide = response.index + 3;
                 }
                 d3.select('.scrolly__chart iframe')
                     .attr('src', linkHead + slide);
