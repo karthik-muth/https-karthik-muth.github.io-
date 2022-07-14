@@ -27,7 +27,7 @@
         }
 
         .wrapper {
-            padding: 96px 0;
+            padding: 24px 0;
         }
 
         .font-secondary {
@@ -123,6 +123,24 @@
             word-break: break-word;
         }
 
+        .g-top-asset {
+            margin: 0 auto;
+        }
+
+        .g-asset {
+            position: relative;
+            margin: 25px auto;
+            width: calc(100% - 40px);
+        }
+
+        .g-asset_inner {
+            position: relative;
+        }
+
+        .g-image img {
+            max-width: 100%;
+        }
+
         /* Small devices (tablets, 768px and up) */
         /* @media (min-width: @screen-sm-min) { ... } */
 
@@ -182,7 +200,6 @@
 
         .text-block.is-active {
             background-color: #e9edf6;
-            color: ;
         }
 
         .text-block {
@@ -204,12 +221,20 @@
 <body>
     <div class="wrapper">
         <div class="container py-5">
+            <div class="g-top-asset g-top " style="">
+                <div role="figure" aria-label="image" class="g-asset g-image g-asset-margin" style="max-width: 600px">
+                    <div class="g-asset_inner">
+                        <img src="3S.png" class="" alt="">
+                    </div>
+                </div>
+            </div>
+
             <h2 class="text-body-1">Sweden elections 2022</h2>
             <h4 class="text-h2">How gender equal are the Swedish municipal councils?</h4>
 
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-11">
-                    <br><br><br><br>
+                    <br><br><br>
                     <p class="text-body-2 mb-5">
                         Sweden will elect its new leaders on September 11th.
                         <br><br>
@@ -345,7 +370,7 @@
                     Data can be found <a
                         href="https://historik.val.se/val/val2018/alkon/K/rike/alderkon.html">here</a>.<br>
                     Visualisation made with Flourish, scrollama and scrollytelling guides from kontinentalist.<br>
-                    Send feedback/feedforward to feedforward.tome@gmail.com.
+                    Any feedback/feedforward is highly appreciated. Send them to feedforward.tome@gmail.com.
                     <br><br>
                 </p>
             </div>
