@@ -302,19 +302,12 @@
                         <div class="text-block pa-2">
                             <p class="text-body-2">
                                 <!-- <b>Multiculturalism enters Swedish politics</b> -->
-                                On 14 May 1975, the parliament led by the Social Democrat government of Olof Palme voted
+                                On 14 May 1975, the parliament led by the Social Democrats voted
                                 in favour of a new immigrant and minority policy. Sweden, along with Canada and
                                 Australia “became one of the first countries in the West to adopt the idea of
-                                multiculturalism formally”.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="step" data-step="3">
-                        <div class="text-block pa-2">
-                            <p class="text-body-2">Sweden started accepting refugees and people came from the Middle
-                                East, South America and Yugoslavia due to wars in
-                                their countries. In 2000, more than 11% of the population was represented by
-                                people born abroad.
+                                multiculturalism formally”. Sweden started accepting refugees and people came from the
+                                Middle
+                                East, South America‚ Yugoslavia and other regions.
                             </p>
                         </div>
                     </div>
@@ -324,7 +317,7 @@
                             <p class="text-body-2">Sweden joined the European Union In 1995 and the Schengen area in
                                 2001. Following this, Sweden more immigration from Europe. By the end of 2010, nearly
                                 15% of the
-                                population were foreign-born and around 6% were
+                                population were foreign-born of which 6% were
                                 from outside Europe.
                             </p>
                         </div>
@@ -334,14 +327,13 @@
                             <p class="text-body-2">The 2010s saw more than 100k immigrants moving to Sweden
                                 each year
                                 reaching the peak of 163k in 2016 during the Syrian civil war. By the end of 2021,
-                                nearly 20% of the population was represented by
-                                people born abroad.
+                                nearly 20% of the population was born abroad.
                             </p>
                         </div>
                     </div>
                     <div class="step" data-step="6">
                         <div class="text-block pa-2">
-                            <p class="text-body-2">By the end of 2021, the population of Sweden was around 10.45
+                            <p class="text-body-2">Today, the population of Sweden is nearly 10.5
                                 million of which around 2.1 million (20%) are
                                 foreign-born. They represent more than 150 nationalities,
                                 making
@@ -366,14 +358,44 @@
         </div>
     </div>
 
+    <div class="row justify-content-center">
+        <div class="col-lg-7 col-11">
+            <p class="text-body-1">Attitudes towards immigration and ethnic diversity </p>
+            <br><br>
+            <div class="flourish-embed flourish-chart" data-src="visualisation/10709693">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+            </div>
+
+
+            <p class=" text-body-2 mb-5">
+                Positive Statements
+
+                The society should create possibilities for people with foreign background to be able to
+                preserve their cultural traditions.
+
+                All people with foreign background who come to Sweden must have the same social rights as
+                Swedes.
+
+                It is good that all people with foreign background who come to Sweden keep their native
+                language and teach their children the language.
+
+
+                Negative Statements
+                All people with foreign background who commit crime should be deported from Sweden.
+
+                Many people with foreign background come to Sweden to exploit the Swedish social welfare
+                benefits.
+
+                Swedes have greater responsibility towards their job compared to people with a foreign
+                background.
+
+            </p>
+        </div>
+    </div>
+
 
     <div class="row justify-content-center">
         <div class="col-lg-7 col-11">
-            <p class="text-body-2">Barometer and attitudes...
-                <br><br>
-
-            </p>
-            <br><br><br><br>
             <p class=" text-body-2 mb-5">
                 <hr style="width:50%;text-align:left;margin-left:0;height:3px;border-width:2px">
                 <b>Method and data</b>
@@ -382,7 +404,6 @@
                     href="https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BE__BE0101__BE0101Q/">here</a>. Note
                 that Oceania represents less than 0.1% of the population and hence not shown in the graphs.<br><br>
 
-                <br>
                 Visualisation made with Flourish and scrollama.<br><br>
 
                 Any feedback/feedforward is highly appreciated. Send them on twitter @karthik_muth or email
@@ -447,15 +468,17 @@
                 return i === response.index;
             });
 
-            if (response.index == 3) {
-                return;
-            }
-            else if (response.index > 3) {
-                slide = response.index - 1;
-            }
-            else {
-                slide = response.index;
-            }
+            // if (response.index == 3) {
+            //     return;
+            // }
+            // else if (response.index > 3) {
+            //     slide = response.index - 1;
+            // }
+            // else {
+            //     slide = response.index;
+            // }
+            slide = response.index;
+
 
             d3.select('.scrolly__chart iframe')
                 .attr('src', linkHead + slide);
