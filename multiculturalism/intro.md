@@ -3,7 +3,7 @@
 <p class="text-body-2">
 Sweden is one of the most multicultural countries in Europe today, with more than a quarter of its population being of foreign background.
 
-This can be traced back to a [decision made in 1975](https://lagen.nu/prop/1975:26) by the Swedish parliament - led by the Social Democrats and the prime minister at the time, Olof Palme - to make the country a multicultural society.
+This can be traced back to the 1970s when the labour migrants that came from various European countries became a sizeable population in Sweden. In 1975, the Swedish parliament - led by the Social Democrats and the prime minister at the time, Olof Palme - made a [decision](https://lagen.nu/prop/1975:26) in favour of a new immigrant and minority policy and [opted for multiculturalism](https://www.tandfonline.com/doi/full/10.1080/10286632.2017.1335719).
 
 [Mahama Tawat, Associate professor at Jönköping University](https://scholar.google.com/citations?user=VQos0d8AAAAJ&hl=en), said:
 _"Multiculturalism is used in reference to ethnic pluralism in terms of race, ethnicity and religion. The policy aims to give recognition and promote immigrants' culture (practices and beliefs) by giving them official group rights, institutionalised in policies and the constitution. In addition, it also aims to give financial support to their ethnic associations, newspapers, festivals, mother language teaching, etc."_
