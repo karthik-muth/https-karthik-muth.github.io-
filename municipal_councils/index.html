@@ -30,6 +30,12 @@
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
+    ></script>
     <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
             <ul class="navbar-nav">
@@ -209,10 +215,6 @@
     <script src="https://unpkg.com/intersection-observer"></script>
     <script src="https://unpkg.com/scrollama"></script>
     <script src="https://public.flourish.studio/resources/embed.js"></script>
-
-
-    <!-- This code from here on is derived from the side-by-side code example from the scrollama library which can be found here: https://github.com/russellgoldenberg/scrollama  -->
-    <!-- I tweaked the function for handleStepEnter to accomodate the Flourish story! -->
 
     <script>
         var scrolly = d3.select("#scrolly__section");

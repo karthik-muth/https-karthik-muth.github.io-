@@ -18,9 +18,9 @@ However, the study also showed that "the attitude has become more positive in th
 
 
 
-<br /><br />
+<br />
 <p class="blockquote">"Positive attitudes were more established among women, younger people, those with higher education, people living in larger cities and those with more contact with people with foreign background." </p>
-<br /><br />
+<br />
 
 <p class="text-body-2">
 
@@ -32,3 +32,15 @@ _"Today, Sweden is facing augmentation of anti-immigration political parties and
 These positive and negative attitudes will play a vital role in the upcoming elections.
 </p>
 
+<br /><hr><br />
+
+<p class="text-body-2">
+
+**Method and data**
+
+Data can be found [here](https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/START__BE__BE0101__BE0101Q/) and [here](https://www.mdpi.com/2076-0760/10/10/401/htm). Note that Oceania represents less than 0.1% of the population and hence is not shown in the graphs.
+
+Visualisation made with Flourish and scrollama.
+
+Any feedback/feedforward is highly appreciated. Send them on twitter @karthik\_muth or email at feedforward.tome@gmail.com.
+</p>
