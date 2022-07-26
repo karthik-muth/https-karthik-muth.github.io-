@@ -1,9 +1,8 @@
 <link href="../assets/main.css" rel="stylesheet">
 
 <p class="text-body-2">
-Conclusion...
-
-Maria Oskarson and Jakob Ahlbom reported in the study that _"women place higher priorities on welfare issues, and are more positive about public welfare policies"._ ...
+The study showed that, in comparison to men, women "place higher priorities on welfare issues, and are more positive about public welfare policies". This is reflected in their support for the political parties and in the previous election in 2018
+"women voted distinctively more to the left than men did".
 </p>
 
 <br /><hr><br />
