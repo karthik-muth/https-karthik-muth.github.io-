@@ -197,11 +197,12 @@ a {
 }
 
 .text-block.is-active {
-    background-color: #e9edf6;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    background-color: white;
 }
 
 .text-block {
-    background-color: #e5e4e2;
+    background-color: lightgray;
 }
 
 .step p {
