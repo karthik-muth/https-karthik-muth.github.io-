@@ -1,0 +1,3 @@
+In a series of analyses, I have reported on political issues such as immigration, gender inequality, polarisation, representation in local government, etc ahead of the elections on September 11th. My resources include reports from the research institutions, discussions with experts and data from various sources, including governmental institutions and research publications.
+
+I created all the following articles using [scrollytelling](https://shorthand.com/the-craft/an-introduction-to-scrollytelling/index.html) and other interactive techniques. You can explore the data used in the articles using the charts often at the end of the article.

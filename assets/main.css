@@ -12,6 +12,7 @@ body {
     font-family: 'Lora', serif !important;
 }
 
+/* not using on h1 */
 .text-h1 {
     font-size: 36px;
     line-height: 52px;

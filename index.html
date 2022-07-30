@@ -5,11 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link href="assets/main.css" rel="stylesheet" />
 
     <script
       async
@@ -28,9 +29,13 @@
 
   <body>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
     ></script>
 
     <nav class="navbar navbar-expand-sm">
@@ -44,6 +49,17 @@
     </nav>
 
     <div class="container">
+      <p class="text-h1" style="text-align: center">Swedish elections 2022</p>
+      <div class="row justify-content-center">
+        <div class="col-11">
+          <zero-md src="intro.md">
+            <template>
+              <link rel="stylesheet" href="../assets/main.css" />
+            </template>
+          </zero-md>
+        </div>
+      </div>
+      <br />
       <div class="row">
         <div class="col">
           <div
@@ -53,10 +69,10 @@
             style="cursor: pointer"
           >
             <div class="card-body">
-              <h3 class="card-title">
+              <h4 class="card-title">
                 A visual history of "multiculturalism" in Sweden - and the
                 society's attitude towards it
-              </h3>
+              </h4>
               <p class="card-text">
                 Sweden is one of the most multicultural countries in Europe
                 today, but...
@@ -79,49 +95,18 @@
             style="cursor: pointer"
           >
             <div class="card-body">
-              <h3>How men became more right-wing than women in Sweden</h3>
+              <h4>How men became more right-wing than women in Sweden</h4>
               <p>
                 The political identification of men has increased significantly
                 towards the right since 1968, according to a study by the
                 Election Research Program...
               </p>
+              <span class="badge rounded-pill bg-secondary">Polarisation</span>
               <span class="badge rounded-pill bg-secondary"
-                >Political spectrum</span
+                >Political position</span
               >
               <span class="badge rounded-pill bg-secondary"
-                >Gender inequality</span
-              >
-              <span class="badge rounded-pill bg-secondary">Scrolly</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <br /><br />
-      <div class="row">
-        <div class="col">
-          <div
-            class="card bg-light"
-            onclick="location.href='municipal_councils/index.html'
-                    ;"
-            style="cursor: pointer"
-          >
-            <div class="card-body">
-              <h3>How gender equal are the Swedish municipal councils?</h3>
-              <p>
-                The Swedish national parliament and the 21 regional councils
-                have all achieved gender parity. But not all municipal councils
-                are equally represented by men and women, according to an
-                analysis on the data from Valmyndigheten...
-              </p>
-              <span class="badge rounded-pill bg-secondary"
-                >Gender inequality</span
-              >
-              <span class="badge rounded-pill bg-secondary"
-                >Local government</span
-              >
-              <span class="badge rounded-pill bg-secondary"
-                >Party representation</span
+                >Party sympathy</span
               >
               <span class="badge rounded-pill bg-secondary">Scrolly</span>
             </div>
@@ -139,19 +124,50 @@
             style="cursor: pointer"
           >
             <div class="card-body">
-              <h3>
+              <h4>
                 Crime is the most important issue for most people - but it
                 depends on who you ask
-              </h3>
+              </h4>
               <p>
                 More than 40% of the people said crime is the most important
                 issue, according to the latest survey by SOM Institute at
                 Gothenburg University.
               </p>
-              <span class="badge rounded-pill bg-secondary">Crime</span>
-              <span class="badge rounded-pill bg-secondary">Environment</span>
               <span class="badge rounded-pill bg-secondary"
                 >societal problems</span
+              >
+              <span class="badge rounded-pill bg-secondary">Crime</span>
+              <span class="badge rounded-pill bg-secondary">Environment</span>
+              <span class="badge rounded-pill bg-secondary">Scrolly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+      <div class="row">
+        <div class="col">
+          <div
+            class="card bg-light"
+            onclick="location.href='municipal_councils/index.html'
+                    ;"
+            style="cursor: pointer"
+          >
+            <div class="card-body">
+              <h4>How gender equal are the Swedish municipal councils?</h4>
+              <p>
+                The Swedish national parliament and the 21 regional councils
+                have all achieved gender parity. But not all municipal councils
+                are equally represented by men and women, according to an
+                analysis on the data from Valmyndigheten...
+              </p>
+              <span class="badge rounded-pill bg-secondary"
+                >Gender inequality</span
+              >
+              <span class="badge rounded-pill bg-secondary"
+                >Local government</span
+              >
+              <span class="badge rounded-pill bg-secondary"
+                >Party representation</span
               >
               <span class="badge rounded-pill bg-secondary">Scrolly</span>
             </div>
