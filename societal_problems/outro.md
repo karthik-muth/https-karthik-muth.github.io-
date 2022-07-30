@@ -1,4 +1,4 @@
-<link href="../assets/main.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 
 <!-- <p class="text-body-2">
 </p> -->

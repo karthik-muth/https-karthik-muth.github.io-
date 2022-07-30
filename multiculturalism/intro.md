@@ -1,4 +1,4 @@
-<link href="../assets/main.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 
 <p class="text-body-2">
 Sweden is one of the most multicultural countries in Europe today, with more than a quarter of its population being of foreign background.

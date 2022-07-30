@@ -1,5 +1,5 @@
 
-<link href="../assets/main.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 
 
 <p class="text-h3">Attitudes towards immigration and ethnic diversity </p>
