@@ -45,6 +45,7 @@ body {
 .text-body-2 born-in-sweden {
     color: #A38A00;
 }
+
 .text-body-2 men {
     color: #73af48;
 }
@@ -166,18 +167,22 @@ a {
 iframe {
     border: unset;
 }
+
 @media (max-width: 768px) {
     .step {
         max-width: 100%;
     }
+
     .text-h2 {
         font-size: 22px;
         line-height: 26px;
     }
+
     .text-h3 {
         font-size: 16px;
         line-height: 18px;
     }
+
     .text-kicker {
         font-size: 16px;
         line-height: 16px;
