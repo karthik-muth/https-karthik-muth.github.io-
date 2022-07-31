@@ -12,8 +12,7 @@ body {
     font-family: 'Lora', serif !important;
 }
 
-/* not using on h1 */
-.text-h1 {
+/* .text-h1 {
     font-size: 36px;
     line-height: 52px;
 
@@ -21,33 +20,9 @@ body {
         font-size: 32px;
         line-height: 48px;
     }
-}
+} */
 
-.text-h2 {
-    font-size: 32px;
-    line-height: 36px;
-    font-weight: 500;
-    text-align: center;
-
-    @media (min-width: @screen-sm-min) {
-        font-size: 28px;
-        line-height: 32px;
-    }
-}
-
-
-.text-h3 {
-    font-size: 26px;
-    line-height: 52px;
-    font-weight: 500;
-
-    @media (min-width: @screen-sm-min) {
-        font-size: 18px;
-        line-height: 28px;
-    }
-}
-
-.text-body-1 {
+/* .text-body-1 {
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -59,17 +34,26 @@ body {
         font-size: 18px;
         line-height: 28px;
     }
+} */
+
+.text-h2 {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.text-h3 {
+    font-size: 26px;
+    line-height: 52px;
+    font-weight: 500;
 }
 
 .text-body-2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-
-    @media (min-width: @screen-sm-min) {
-        font-size: 12px;
-        line-height: 20px;
-    }
 }
 
 .text-body-2 foreign-born {
@@ -135,14 +119,6 @@ a {
     max-width: 100%;
 }
 
-/* Small devices (tablets, 768px and up) */
-/* @media (min-width: @screen-sm-min) { ... } */
-
-/* Medium devices (desktops, 992px and up) */
-/* @media (min-width: @screen-md-min) { ... } */
-
-/* Large devices (large desktops, 1200px and up) */
-/* @media (min-width: @screen-lg-min) { ... } */
 
 #scrolly__section {
     position: relative;
@@ -185,19 +161,49 @@ a {
 }
 
 .step {
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto 2rem auto;
     display: flex;
     justify-content: center;
     align-items: start;
+
+
 }
+
+@media (min-width: 768px) {
+    .step {
+    max-width: 50%;
+    }
+    /* .text-h2 {
+        font-size: 28px;
+        line-height: 32px;
+    } */
+    /* .step p {
+        font-size: 14px;
+        line-height: 20px;
+    } */
+
+    /* @media (min-width: @screen-sm-min) {
+        font-size: 18px;
+        line-height: 28px;
+    } */
+
+}
+/* Small devices (tablets, 768px and up) */
+/* @media (min-width: @screen-sm-min) { ... } */
+
+/* Medium devices (desktops, 992px and up) */
+/* @media (min-width: @screen-md-min) { ... } */
+
+/* Large devices (large desktops, 1200px and up) */
+/* @media (min-width: @screen-lg-min) { ... } */
 
 .step:last-child {
     margin-bottom: 0;
 }
 
 .text-block.is-active {
-    box-shadow: 2px 2px 2px 2px lightgray;
+    box-shadow: 0 .5rem 1rem lightgray;
     background-color: white;
 }
 
