@@ -2,7 +2,7 @@
 
 <p class="text-body-2">
 
-The political identification of men has increased significantly towards the right since 1968, according to a [study](https://www.gu.se/sites/default/files/2021-02/2021%201%20Oskarson%20%26%20Ahlbom%20-%20Trender%20i%20ko%CC%88nsskillnader.pdf) by the [Election Research Program (Valforskningsprogrammet)](https://www.gu.se/valforskningsprogrammet) of the University of Gothenburg.
+The political identification of men has increased significantly towards the right since 1968, according to a [study](https://www.gu.se/sites/default/files/2021-02/2021%201%20Oskarson%20%26%20Ahlbom%20-%20Trender%20i%20ko%CC%88nsskillnader.pdf) by [Election Research Program (Valforskningsprogrammet)](https://www.gu.se/valforskningsprogrammet) of the University of Gothenburg.
 
 Since the 1970s, voter turnout has been about the same for both genders. However, there are gaps in political preferences and identification, which have widened over the past decade.
 
