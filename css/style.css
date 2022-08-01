@@ -1,11 +1,21 @@
 body {
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100%; */
     font-family: 'Poppins', sans-serif;
     color: #1d1d1d;
 }
 
 .wrapper {
     padding: 24px 1rem;
+    /* flex-grow: 1; */
+
 }
+
+/* footer {
+    margin-top: auto;
+    bottom: 0;
+} */
 
 .font-secondary {
     font-family: 'Lora', serif !important;
@@ -13,15 +23,15 @@ body {
 
 .text-kicker {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 32px;
     text-align: center;
     color: gray;
 }
 
 .text-h2 {
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 36px;
+    line-height: 52px;
     font-weight: 500;
     text-align: center;
 }
@@ -34,7 +44,7 @@ body {
 
 .text-body-2 {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 28px;
 }
 
@@ -143,24 +153,22 @@ a {
 
 }
 
-
-
-.step:last-child {
+/* .step:last-child {
     margin-bottom: 0;
-}
+} */
 
 .text-block.is-active {
-    box-shadow: 0 .5rem 1rem lightgray;
-    background-color: white;
+    box-shadow: 0 .5rem 1rem whitesmoke;
+    background-color: white
 }
 
 .text-block {
-    background-color: lightgray;
+    background-color: whitesmoke
 }
 
 .step p {
     margin: 0;
-    text-align: center;
+    /* text-align: center; */
     padding: 1rem;
 }
 
