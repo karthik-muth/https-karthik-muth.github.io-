@@ -12,10 +12,13 @@ body {
 
 }
 
-/* footer {
+footer {
+    position: relative;
+    padding: 25px 10px;
     margin-top: auto;
-    bottom: 0;
-} */
+    width: 100%;
+    /* bottom: 0; */
+}
 
 .font-secondary {
     font-family: 'Lora', serif !important;
