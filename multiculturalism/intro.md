@@ -1,6 +1,8 @@
-<link href="../css/style.css" rel="stylesheet">
+<h2 class="text-kicker">Swedish elections 2022</h2>
+<p class="text-h2">
+A visual history of "multiculturalism" in Sweden - and the society's attitude towards it</p>
 
-<p class="text-body-2">
+<p class="text-body-2"><br />
 Sweden is one of the most multicultural countries in Europe today, with more than a quarter of its population being of foreign background.
 
 This can be traced back to the 1970s when the labour migrants that came from various European countries became a sizeable population in Sweden. In 1975, the Swedish parliament - led by the Social Democrats and the prime minister at the time, Olof Palme - made a [decision](https://lagen.nu/prop/1975:26) in favour of a new immigrant and minority policy and [opted for multiculturalism](https://www.tandfonline.com/doi/full/10.1080/10286632.2017.1335719).
@@ -14,4 +16,4 @@ In the recent years, "the political and media discourse has focused on the short
 
 <br />**A brief look before the 1970s**<br />
 Before the second world war, the social democrat concept of Folkhemmet (the people’s homes) aimed to modernize society while diminishing the impact of social class. Assimilation, as opposed to integration, was the political stance regarding immigrants. Sweden was largely culturally and linguistically homogeneous at this time except for the Sami and Tornedalian minorities.
-</p>
+</p><br /><br /><br />
