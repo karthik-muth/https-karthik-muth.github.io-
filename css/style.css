@@ -31,6 +31,7 @@ footer {
 .card {
     box-shadow: 0 1rem 3rem whitesmoke;
     border-width: 0;
+    cursor: pointer;
 }
 
 .font-secondary {
