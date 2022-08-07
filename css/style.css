@@ -20,6 +20,19 @@ footer {
     /* bottom: 0; */
 }
 
+.badge {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+
+}
+
+.card {
+    box-shadow: 0 1rem 3rem whitesmoke;
+    border-width: 0;
+}
+
 .font-secondary {
     font-family: 'Lora', serif !important;
 }
@@ -29,7 +42,7 @@ footer {
     font-weight: normal;
     line-height: 32px;
     text-align: center;
-    color: gray;
+
 }
 
 .text-h2 {
