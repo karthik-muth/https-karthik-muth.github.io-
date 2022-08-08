@@ -187,146 +187,144 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-7 col-11">
-                <br><br><br><br>
-                <p class="text-h3">Explore the representations in Swedish parties</p>
-                <br><br>
-                <div class="flourish-embed flourish-chart" data-src="visualisation/10607702">
-                    <script src="https://public.flourish.studio/resources/embed.js"></script>
-                </div> <br><br>
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <br />
+                    <hr><br />
+                    <p class="text-h3">Explore</p>
+                    Here you can explore the representations in Swedish parties. Click on a group to choose one.
+                    <br><br>
+                    <div class="flourish-embed flourish-chart" data-src="visualisation/10607702">
+                        <script src="https://public.flourish.studio/resources/embed.js"></script>
+                    </div> <br><br>
+
+                    <br><br>
+                    <p class="text-body-2 mb-5">
+                        <b>Method and data</b>
+                        <br><br>
+                        Data can be found <a
+                            href="https://historik.val.se/val/val2018/alkon/K/rike/alderkon.html">here</a>.<br>
+                        Visualisation made with Flourish and scrollama.<br><br>
+                        Any feedback/feedforward is highly appreciated. Send them on twitter @karthik_muth or email at
+                        feedforward.tome@gmail.com.
+                        <br><br>
+                    </p>
+                </div>
             </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
 
-        <div class="row justify-content-center">
-            <div class="col-lg-7 col-11">
-                <br><br><br><br>
-                <p class="text-body-2 mb-5">
-                    <hr style="width:50%;text-align:left;margin-left:0;height:3px;border-width:2px">
-                    <b>Method and data</b>
-                    <br><br>
-                    Data can be found <a
-                        href="https://historik.val.se/val/val2018/alkon/K/rike/alderkon.html">here</a>.<br>
-                    Visualisation made with Flourish and scrollama.<br><br>
-                    Any feedback/feedforward is highly appreciated. Send them on twitter @karthik_muth or email at
-                    feedforward.tome@gmail.com.
-                    <br><br>
-                </p>
-            </div>
-        </div>
-    </div>
+        <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+        <script src="https://unpkg.com/intersection-observer"></script>
+        <script src="https://unpkg.com/scrollama"></script>
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
-
-    <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
-    <script src="https://unpkg.com/intersection-observer"></script>
-    <script src="https://unpkg.com/scrollama"></script>
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-
-    <script>
-        var scrolly = d3.select("#scrolly__section");
-        var chart = scrolly.select(".scrolly__chart");
-        var content = scrolly.select(".scrolly__content");
-        var step = content.selectAll(".step");
-        var linkHead = 'https://flo.uri.sh/story/1621046/embed#slide-'
+        <script>
+            var scrolly = d3.select("#scrolly__section");
+            var chart = scrolly.select(".scrolly__chart");
+            var content = scrolly.select(".scrolly__content");
+            var step = content.selectAll(".step");
+            var linkHead = 'https://flo.uri.sh/story/1621046/embed#slide-'
 
 
-        // initialize the scrollama
-        var scroller = scrollama();
+            // initialize the scrollama
+            var scroller = scrollama();
 
-        // generic window resize listener event
-        function handleResize() {
-            // 1. update height of step elements
-            var stepH = Math.floor(window.innerHeight * 1);
-            step.style("height", stepH + "px");
+            // generic window resize listener event
+            function handleResize() {
+                // 1. update height of step elements
+                var stepH = Math.floor(window.innerHeight * 1);
+                step.style("height", stepH + "px");
 
-            var figureHeight = window.innerHeight * 0.75;
-            var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+                var figureHeight = window.innerHeight * 0.75;
+                var figureMarginTop = (window.innerHeight - figureHeight) / 2;
 
-            chart
-                .style("height", figureHeight + "px")
-                .style("top", figureMarginTop + "px");
+                chart
+                    .style("height", figureHeight + "px")
+                    .style("top", figureMarginTop + "px");
 
-            // 3. tell scrollama to update new element dimensions
-            scroller.resize();
-        }
-
-        // scrollama event handlers
-        function handleStepEnter(response) {
-
-            const textblock = step.select(".text-block");
-
-            // add color to current step only
-            textblock.classed("is-active", function (d, i) {
-                return i === response.index;
-            });
-
-            // update graphic based on step
-            if (response.index == 3 & response.direction == 'down') {
-                //dont update
-                return;
-            } else if (response.index > 6) {
-                slide = response.index + 3;
-            }
-            else {
-                slide = response.index;
+                // 3. tell scrollama to update new element dimensions
+                scroller.resize();
             }
 
-            d3.select('.scrolly__chart iframe')
-                .attr('src', linkHead + slide);
-        }
+            // scrollama event handlers
+            function handleStepEnter(response) {
 
-        function handleStepProgress(response) {
-            // go 4 pages
-            if (response.index == 6) {
+                const textblock = step.select(".text-block");
+
+                // add color to current step only
+                textblock.classed("is-active", function (d, i) {
+                    return i === response.index;
+                });
+
                 // update graphic based on step
-                if (response.progress > 0.2 & response.progress < 0.41) {
-                    slide = response.index + 1;
-                }
-                if (response.progress > 0.5 & response.progress < 0.61) {
-                    slide = response.index + 2;
-                }
-                if (response.progress > 0.6) {
+                if (response.index == 3 & response.direction == 'down') {
+                    //dont update
+                    return;
+                } else if (response.index > 6) {
                     slide = response.index + 3;
                 }
+                else {
+                    slide = response.index;
+                }
+
                 d3.select('.scrolly__chart iframe')
                     .attr('src', linkHead + slide);
-
-            } else {
-                return;
             }
-        }
 
-        function setupStickyfill() {
-            d3.selectAll(".sticky").each(function () {
-                Stickyfill.add(this);
-            });
-        }
+            function handleStepProgress(response) {
+                // go 4 pages
+                if (response.index == 6) {
+                    // update graphic based on step
+                    if (response.progress > 0.2 & response.progress < 0.41) {
+                        slide = response.index + 1;
+                    }
+                    if (response.progress > 0.5 & response.progress < 0.61) {
+                        slide = response.index + 2;
+                    }
+                    if (response.progress > 0.6) {
+                        slide = response.index + 3;
+                    }
+                    d3.select('.scrolly__chart iframe')
+                        .attr('src', linkHead + slide);
 
-        function init() {
-            setupStickyfill();
-            handleResize();
-            scroller
-                .setup({
-                    step: "#scrolly__section .scrolly__content .step",
-                    progress: true,
-                    offset: 0.7,
-                    debug: false
-                })
-                .onStepProgress(handleStepProgress)
-                .onStepEnter(handleStepEnter);
+                } else {
+                    return;
+                }
+            }
 
-            // setup resize event
-            window.addEventListener("resize", handleResize);
-        }
+            function setupStickyfill() {
+                d3.selectAll(".sticky").each(function () {
+                    Stickyfill.add(this);
+                });
+            }
 
-        init();
-    </script>
+            function init() {
+                setupStickyfill();
+                handleResize();
+                scroller
+                    .setup({
+                        step: "#scrolly__section .scrolly__content .step",
+                        progress: true,
+                        offset: 0.7,
+                        debug: false
+                    })
+                    .onStepProgress(handleStepProgress)
+                    .onStepEnter(handleStepEnter);
+
+                // setup resize event
+                window.addEventListener("resize", handleResize);
+            }
+
+            init();
+        </script>
 </body>
 
 </html>
