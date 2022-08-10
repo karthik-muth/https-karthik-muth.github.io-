@@ -1,177 +1,133 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
+---
+layout: default
+title: A visual history of "multiculturalism" in Sweden - and the society's attitude towards it
 
-<head>
-  <meta charset="utf-8" />
-  <title>karthik | multiculturalism</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="how-to-make-a-story" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <base target="_blank">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
-
-  <link href="../css/style.css" rel="stylesheet" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Q0JN8SCTY"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-0Q0JN8SCTY");
-  </script>
-</head>
-
-<body>
-  <section>
-    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
-
-    <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"></script>
-
-    <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
-    <script src="https://unpkg.com/intersection-observer"></script>
-    <script src="https://unpkg.com/scrollama"></script>
-    <script src="https://public.flourish.studio/resources/embed.js"></script>
-  </section>
-
-  <nav class="navbar navbar-expand-sm">
-    <div class="container-fluid">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="../index.html">Home</a>
-        </li>
-      </ul>
+---
+<div class="container-fluid py-5" id="root">
+  <div id="scrolly__section">
+    <div class="scrolly__chart">
+      <iframe scrolling="no" src="https://flo.uri.sh/story/1624140/embed#slide-0"></iframe>
     </div>
-  </nav>
-  <div class="wrapper">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-7 col-11">
-          <zero-md src="intro.md">
-            <template>
-              <link rel="stylesheet" href="../css/style.css" />
-            </template>
-          </zero-md>
+    <div class="scrolly__content">
+      <div class="step" data-step="0">
+        <div class="text-block pa-2">
+          <p class="text-body-2">
+            After the war, Sweden opened its borders primarily for labour
+            immigration.
+          </p>
         </div>
       </div>
-    </div>
-
-    <div class="container-fluid" id="root">
-      <div id="scrolly__section">
-        <div class="scrolly__chart">
-          <iframe scrolling="no" src="https://flo.uri.sh/story/1624140/embed#slide-0"></iframe>
+      <div class="step" data-step="1">
+        <div class="text-block pa-2">
+          <p class="text-body-2">
+            In the 1950s and 1960s, migrant workers moved from Finland and
+            other European countries. By the end of 1970, the share of the
+            foreign-born population was nearly 7%, and almost all of them
+            were from Europe.
+          </p>
         </div>
-        <div class="scrolly__content">
-          <div class="step" data-step="0">
-            <div class="text-block pa-2">
-              <p class="text-body-2">
-                After the war, Sweden opened its borders primarily for labour
-                immigration.
-              </p>
-            </div>
-          </div>
-          <div class="step" data-step="1">
-            <div class="text-block pa-2">
-              <p class="text-body-2">
-                In the 1950s and 1960s, migrant workers moved from Finland and
-                other European countries. By the end of 1970, the share of the
-                foreign-born population was nearly 7%, and almost all of them
-                were from Europe.
-              </p>
-            </div>
-          </div>
-          <div class="step" data-step="2">
-            <div class="text-block pa-2">
-              <p class="text-body-2">
-                <!-- <b>Multiculturalism enters Swedish politics</b> -->
-                In 1975, the Swedish parliament voted for multiculturalism. The
-                following years saw a transition from a labour-based to a
-                refugee-based immigration. People primarily came from the Middle
-                East, South America and Yugoslavia.
-              </p>
-            </div>
-          </div>
-          <div class="step" data-step="4">
+      </div>
+      <div class="step" data-step="2">
+        <div class="text-block pa-2">
+          <p class="text-body-2">
             <!-- <b>Multiculturalism enters Swedish politics</b> -->
-            <div class="text-block pa-2">
-              <p class="text-body-2">
-                Sweden joined the European Union In 1995 and the Schengen area
-                in 2001. Following this, Sweden received more immigrants from
-                Europe. By the end of 2010, nearly 15% of the population were
-                foreign-born of which 6% were from outside Europe.
-              </p>
-            </div>
-          </div>
-          <div class="step" data-step="5">
-            <div class="text-block pa-2">
-              <p class="text-body-2">
-                The 2010s saw more than 100k immigrants moving to Sweden each
-                year reaching the peak of 163k in 2016 during the Syrian civil
-                war. By the end of 2021, nearly 20% of the population was born
-                abroad.
-              </p>
-            </div>
-          </div>
-          <div class="step" data-step="6">
-            <div class="text-block pa-2">
-              <p class="text-body-2">
-                Today, the population of Sweden is nearly 10.5 million of which
-                around 2.1 million (20%) are foreign-born. They represent more
-                than 160 nationalities, making Sweden one of the most diverse
-                countries in the world.
-              </p>
-            </div>
-          </div>
-          <div class="step" data-step="7">
-            <div class="text-block pa-2">
-              <p class="text-body-2">
-                In addition to the
-                <foreign-born>foreign-born people</foreign-born>, 6% of the
-                Swedish population are
-                <born-in-sweden>born in Sweden to two foreign-born parents</born-in-sweden>. Thus more than a quarter
-                are of foreign background.
-              </p>
-            </div>
-          </div>
+            In 1975, the Swedish parliament voted for multiculturalism. The
+            following years saw a transition from a labour-based to a
+            refugee-based immigration. People primarily came from the Middle
+            East, South America and Yugoslavia.
+          </p>
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <hr style="width: 50%; text-align: left; height: 3px; border-width: 2px" />
-      <div class="row justify-content-center">
-        <div class="col-lg-7 col-11">
-          <zero-md src="outro.md">
-            <template>
-              <link rel="stylesheet" href="../css/style.css" />
-            </template>
-          </zero-md>
+      <div class="step" data-step="4">
+        <!-- <b>Multiculturalism enters Swedish politics</b> -->
+        <div class="text-block pa-2">
+          <p class="text-body-2">
+            Sweden joined the European Union In 1995 and the Schengen area
+            in 2001. Following this, Sweden received more immigrants from
+            Europe. By the end of 2010, nearly 15% of the population were
+            foreign-born of which 6% were from outside Europe.
+          </p>
+        </div>
+      </div>
+      <div class="step" data-step="5">
+        <div class="text-block pa-2">
+          <p class="text-body-2">
+            The 2010s saw more than 100k immigrants moving to Sweden each
+            year reaching the peak of 163k in 2016 during the Syrian civil
+            war. By the end of 2021, nearly 20% of the population was born
+            abroad.
+          </p>
+        </div>
+      </div>
+      <div class="step" data-step="6">
+        <div class="text-block pa-2">
+          <p class="text-body-2">
+            Today, the population of Sweden is nearly 10.5 million of which
+            around 2.1 million (20%) are foreign-born. They represent more
+            than 160 nationalities, making Sweden one of the most diverse
+            countries in the world.
+          </p>
+        </div>
+      </div>
+      <div class="step" data-step="7">
+        <div class="text-block pa-2">
+          <p class="text-body-2">
+            In addition to the
+            <foreign-born>foreign-born people</foreign-born>, 6% of the
+            Swedish population are
+            <born-in-sweden>born in Sweden to two foreign-born parents</born-in-sweden>. Thus more than a quarter
+            are of foreign background.
+          </p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-7 col-11">
+      <p class="text-h3">Attitudes towards immigration and ethnic diversity </p>
+      <br /><br />
 
-  <script src="../scripts/overlay.js"></script>
-</body>
+      <p class="text-body-2">
+        "Sweden has had a generous migration policy for a relatively long time" and has experienced a steady increase in
+        the share of population with foreign backgrounds. While the integration issues remain, "the anti-immigration
+        political parties, have focused on the shortcomings of Swedish immigration policies".
 
-</html>
+        The Diversity Barometer survey (2005 to 2020) from the study on attitudes towards immigration showed "a positive
+        trend in Swedes’ attitudes up to 2014. The subsequent years showed an increased negativity explained by the
+        refugee crisis in 2015 when Sweden received many refugees. Negative public and political discourse about
+        refugees, and restrictive immigration policies in Sweden are also attributed to the refugee crisis".
+
+        However, the study also showed that "the attitude has become more positive in the recent years. This is
+        especially seen among the people "that have the experience of working/studying and socialize frequently with
+        people of foreign background".</p>
+      <br /><br />
+
+      <iframe src='https://flo.uri.sh/visualisation/10709693/embed' title='Interactive or visual content'
+        class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;'
+        sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+      <br /><br />
+
+      <p class="blockquote">"Positive attitudes were more established among women, younger people, those with higher
+        education, people living in larger cities and those with more contact with people with foreign background." </p>
+      <br /><br />
+
+      <p class="text-body-2">
+
+        The study further showed that
+        <i>"a negative assessment of the cultural consequences of immigration is a reason for the deteriorating
+          attitudes
+          towards immigration. The negative attitudes of the working class and their decision to vote for right-wing
+          populist parties are mainly due to considering the nation’s culture at threat from immigration.
+
+          "Today, Sweden is facing augmentation of anti-immigration political parties and groups. Extreme attitudes
+          towards ethnic diversity risk increasing polarization (...) which in turn may complicate integration and
+          cohesion."</i>
+        <br /><br />
+        These positive and negative attitudes will play a vital role in the upcoming elections.
+      </p>
+    </div>
+  </div>
+</div>

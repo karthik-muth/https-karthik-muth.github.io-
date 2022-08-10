@@ -1,6 +1,3 @@
-<br /><hr><br />
-
-<p class="text-body-2">
 
 **Method and data**
 
@@ -19,6 +16,3 @@ Ljudochbild.se,
 Unt.se.
 
 Note: The Google Trends search interest for the other party leaders were too low and hence not included in the graph.
-</p>
-
-

@@ -1,12 +1,3 @@
-<link href="../css/style.css" rel="stylesheet">
-
-<p class="text-body-2">
-The study showed that, in comparison to men, women "place higher priorities on welfare issues, and are more positive about public welfare policies". This is reflected in their support for the political parties, and in the previous election in 2018 "women voted distinctively more to the left than men did".
-</p>
-
-<br /><hr><br />
-
-<p class="text-body-2">
 
 **Method and data**
 
@@ -15,4 +6,3 @@ Data can be found [here](https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/STAR
 Visualisation made with Flourish and scrollama.
 
 Any feedback/feedforward is highly appreciated. Send them on twitter @karthik\_muth or email at feedforward.tome@gmail.com.
-</p>

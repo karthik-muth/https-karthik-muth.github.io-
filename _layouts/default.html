@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<link href="/assets/css/style.css" rel="stylesheet" />
+
+<head>
+    <title>karthik | {{ page.path }}</title>
+    {% include head.html %}
+</head>
+
+<body>
+    {% include navbar.html %}
+    {% include scripts.html %}
+
+
+    <div class="container py-5">
+        <div class="row  justify-content-center">
+            <div class="col-lg-7 col-11">
+                <p class="text-kicker">Swedish elections 2022</p>
+                <p class="text-h2">{{ page.title }}</p>
+                <br /><br />
+                <p class="text-body-2">
+                    {% capture intro %}
+                    {% include_relative intro.md %}
+                    {% endcapture %}
+                    {{ intro | markdownify }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    {{ content }}
+
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-11">
+                <hr>
+                <p class="text-body-2">
+                    {% capture outro %}
+                    {% include_relative outro.md %}
+                    {% endcapture %}
+                    {{ outro | markdownify }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/js/overlay.js"></script>
+
+
+</body>
+
+</html>

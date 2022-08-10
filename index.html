@@ -1,176 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: home
+title: Swedish elections 2022
 
-<head>
-  <title>karthik | Swedish elections 2022</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <base target="_blank">
+---
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
-  <link href="css/style.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Q0JN8SCTY"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+<div class="container">
+  <div class="row row-cols-1 py-4 gy-5 justify-content-center">
 
-    gtag("config", "G-0Q0JN8SCTY");
-  </script>
-</head>
-
-<body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-    crossorigin="anonymous"></script>
-  <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
-
-  <nav class="navbar navbar-expand-sm">
-    <div class="container-fluid">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="wrapper">
-
-    <div class="container">
-      <p class="text-h2 justify-content-center">Swedish elections 2022</p>
-      <div class=" row justify-content-center">
-        <div class="col-11">
-          <zero-md src="intro.md">
-            <template>
-              <link rel="stylesheet" href="../css/style.css" />
-            </template>
-          </zero-md>
+    <div class="col">
+      <div class="card" onclick="location.href='multiculturalism';">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="multiculturalism/gif.gif" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <p class="fs-5 fw-semibold">
+                A visual history of "multiculturalism" in Sweden - and the
+                society's attitude towards it
+              </p>
+              <span class="badge">Immigration</span>
+              <span class="badge">Integration</span>
+              <span class="badge">Diversity</span>
+              <span class="badge">Scrolly</span>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="row row-cols-1 py-4 gy-5 justify-content-center">
-
-        <div class="col">
-          <div class="card" onclick="location.href='multiculturalism';">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="multiculturalism/gif.gif" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col">
-                <div class="card-body">
-                  <p class="fs-5 fw-semibold">
-                    A visual history of "multiculturalism" in Sweden - and the
-                    society's attitude towards it
-                  </p>
-                  <span class="badge">Immigration</span>
-                  <span class="badge">Integration</span>
-                  <span class="badge">Diversity</span>
-                  <span class="badge">Scrolly</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card" onclick="location.href='societal_problems';" target="_blank">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="societal_problems/gif.gif" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col">
-                <div class="card-body">
-                  <p class="fs-5 fw-semibold">
-                    Crime is the most important issue – but it depends on who you
-                    ask
-                  </p>
-                  <span class="badge">Crime</span>
-                  <span class="badge">societal problems</span>
-                  <span class="badge">Environment</span>
-                  <span class="badge">Scrolly</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col ">
-          <div class="card" onclick="location.href='left_right_identification';">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="left_right_identification/gif.gif" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col">
-                <div class="card-body">
-                  <p class="fs-5 fw-semibold">How men became more right-wing than women in Sweden</p>
-                  <span class="badge">Polarisation</span>
-                  <span class="badge">Political position</span>
-                  <span class="badge">Party sympathy</span>
-                  <span class="badge ">Scrolly</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col ">
-          <div class="card" onclick="location.href='municipal_councils'
-                    ;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="municipal_councils/gif.gif" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col">
-                <div class="card-body">
-                  <p class="fs-5 fw-semibold">How gender equal are the Swedish municipal councils?</p>
-                  <span class="badge">Gender inequality</span>
-                  <span class="badge">Local government</span>
-                  <span class="badge">Party representation</span>
-                  <span class="badge ">Maps</span>
-                  <span class="badge ">Scrolly</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col ">
-          <div class="card" onclick="location.href='trends'
-                    ;">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="trends/ebba.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col">
-
-                <div class="card-body">
-                  <p class="fs-5 fw-semibold">Ebba Busch is the most googled politician ahead of the elections</p>
-                  <span class="badge">Media analysis</span>
-                  <span class="badge">Party leaders</span>
-                  <span class="badge ">Live</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
     </div>
+
+    <div class="col">
+      <div class="card" onclick="location.href='societal_problems';" target="_blank">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="societal_problems/gif.gif" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <p class="fs-5 fw-semibold">
+                Crime is the most important issue – but it depends on who you
+                ask
+              </p>
+              <span class="badge">Crime</span>
+              <span class="badge">societal problems</span>
+              <span class="badge">Environment</span>
+              <span class="badge">Scrolly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col ">
+      <div class="card" onclick="location.href='left_right_identification';">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="left_right_identification/gif.gif" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <p class="fs-5 fw-semibold">How men became more right-wing than women in Sweden</p>
+              <span class="badge">Polarisation</span>
+              <span class="badge">Political position</span>
+              <span class="badge">Party sympathy</span>
+              <span class="badge ">Scrolly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col ">
+      <div class="card" onclick="location.href='municipal_councils'
+                ;">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="municipal_councils/gif.gif" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <p class="fs-5 fw-semibold">How gender equal are the Swedish municipal councils?</p>
+              <span class="badge">Gender inequality</span>
+              <span class="badge">Local government</span>
+              <span class="badge">Party representation</span>
+              <span class="badge ">Maps</span>
+              <span class="badge ">Scrolly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col ">
+      <div class="card" onclick="location.href='trends'
+                ;">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="trends/ebba.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col">
+
+            <div class="card-body">
+              <p class="fs-5 fw-semibold">Ebba Busch is the most googled politician ahead of the elections</p>
+              <span class="badge">Media analysis</span>
+              <span class="badge">Party leaders</span>
+              <span class="badge ">Live</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <footer class="d-flex justify-content-center align-items-center bg-light text-dark">
-    This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
-    International License.
-    <a rel=" license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
-        src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
-  </footer>
 
+</div>
 
-</body>
-
-</html>
+<footer class="d-flex justify-content-center align-items-center bg-light text-dark">
+  This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+  International License.
+  <a rel=" license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
+      src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+</footer>
