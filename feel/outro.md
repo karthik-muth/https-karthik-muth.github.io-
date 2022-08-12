@@ -6,4 +6,5 @@ For results based on the total sample of national adults, the margin of sampling
 
 Visualisation made with Flourish and Scrollama.
 
-Any feedback/feedforward is highly appreciated. Send them on twitter @karthik\_muth or email at feedforward.tome@gmail.com.
+Did you enjoy this storytelling? Check out my other stories in the home page.  Do you want to discuss something or want to create a story together? 
+Any feedback/feedforward is highly valuable to me. Send them on twitter @karthik\_muth or email at feedforward.tome@gmail.com.

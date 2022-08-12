@@ -1,11 +1,22 @@
 ---
 layout: home
 title: Swedish elections 2022
-
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<div class="container py-5">
+  <div class="row  justify-content-center">
+    <div class="col-lg-7 col-11">
+      <p class="text-h2">{{ page.title }}</p>
+      <br /><br />
+      <p class="text-body-2">
+        {% capture intro %}
+        {% include_relative intro.md %}
+        {% endcapture %}
+        {{ intro | markdownify }}
+      </p>
+    </div>
+  </div>
+</div>
 
 <div class="container">
   <div class="row row-cols-1 py-4 gy-5 justify-content-center">
@@ -75,7 +86,7 @@ title: Swedish elections 2022
 
     <div class="col ">
       <div class="card" onclick="location.href='municipal_councils'
-                ;">
+                  ;">
         <div class="row">
           <div class="col-md-4">
             <img src="municipal_councils/gif.gif" class="img-fluid rounded-start" alt="...">
@@ -96,7 +107,7 @@ title: Swedish elections 2022
 
     <div class="col ">
       <div class="card" onclick="location.href='trends'
-                ;">
+                  ;">
         <div class="row">
           <div class="col-md-4">
             <img src="trends/ebba.png" class="img-fluid rounded-start" alt="...">
@@ -104,7 +115,8 @@ title: Swedish elections 2022
           <div class="col">
 
             <div class="card-body">
-              <p class="fs-5 fw-semibold">Ebba Busch is the most googled politician ahead of the elections</p>
+              <p class="fs-5 fw-semibold">Ebba Busch is the most googled politician ahead of the elections
+              </p>
               <span class="badge">Media analysis</span>
               <span class="badge">Party leaders</span>
               <span class="badge ">Live</span>
@@ -115,12 +127,4 @@ title: Swedish elections 2022
     </div>
 
   </div>
-
 </div>
-
-<footer class="d-flex justify-content-center align-items-center bg-light text-dark">
-  This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
-  International License.
-  <a rel=" license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
-      src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
-</footer>
