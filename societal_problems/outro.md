@@ -7,4 +7,6 @@ Data can be found [here](https://www.gu.se/sites/default/files/2022-03/L%C3%A5ng
 
 Visualisation made with Flourish and Scrollama.
 
-Any feedback/feedforward is highly valuable to me. Send them on twitter @karthik\_muth or email at feedforward.tome@gmail.com.
+
+
+

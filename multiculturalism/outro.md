@@ -5,4 +5,4 @@ Data can be found [here](https://www.statistikdatabasen.scb.se/pxweb/sv/ssd/STAR
 
 Visualisation made with Flourish and Scrollama.
 
-Any feedback/feedforward is highly valuable to me. Send them on twitter @karthik\_muth or email at feedforward.tome@gmail.com.
+
