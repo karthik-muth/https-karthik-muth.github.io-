@@ -33,13 +33,13 @@
     <div class="container py-5">
         <div class="row justify-content-center">
             <div class="col-lg-7 col-11">
+                <hr>
                 <p class="text-body-2">
                     {% capture f %}
                     {% include feedback.md %}
                     {% endcapture %}
                     {{ f | markdownify }}
                 </p>
-                <hr>
                 <p class="text-body-2">
                     {% capture outro %}
                     {% include_relative outro.md %}
