@@ -145,3 +145,27 @@ title: Some of my stories
 
   </div>
 </div>
+
+<div class="container">
+  <div class="row row-cols-1 py-4 gy-5 justify-content-center">
+
+    {% for i in site.data.medium %}
+    <div class="col">
+      <div class="card" onclick="location.href='feel';">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="{{ site.url }}/assets/images/{{ i.name }}.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <p class="fs-5 fw-semibold"> {{ i.title }} </p>
+              <span class="badge">UK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
