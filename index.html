@@ -61,7 +61,7 @@ title: Some of my stories
     </div>
 
     <div class="col">
-      <div class="card" onclick="location.href='societal_problems';" target="_blank">
+      <div class="card" onclick="location.href='societal_problems';">
         <div class="row">
           <div class="col-md-4">
             <img src="societal_problems/gif.gif" class="img-fluid rounded-start" alt="...">
@@ -102,8 +102,7 @@ title: Some of my stories
     </div>
 
     <div class="col ">
-      <div class="card" onclick="location.href='municipal_councils'
-                    ;">
+      <div class="card" onclick="location.href='municipal_councils';">
         <div class="row">
           <div class="col-md-4">
             <img src="municipal_councils/gif.gif" class="img-fluid rounded-start" alt="...">
@@ -151,7 +150,7 @@ title: Some of my stories
 
     {% for i in site.data.medium %}
     <div class="col">
-      <div class="card" onclick="location.href='feel';">
+      <div class="card" onclick="location.href='{{ i.link }}';">
         <div class="row">
           <div class="col-md-4">
             <img src="{{ site.url }}/assets/images/{{ i.name }}.jpg" class="img-fluid rounded-start" alt="...">
@@ -159,7 +158,10 @@ title: Some of my stories
           <div class="col">
             <div class="card-body">
               <p class="fs-5 fw-semibold"> {{ i.title }} </p>
-              <span class="badge">UK</span>
+              {% for t in i.tags %}
+              <span class="badge">{{ t.name }}</span>
+              {% endfor %}
+
             </div>
           </div>
         </div>
