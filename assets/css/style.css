@@ -94,11 +94,8 @@ footer {
     } */
 }
 
-a {
-    color: #104E8B !important;
-    border-bottom: 2px solid #104E8B;
+.links {
     text-decoration: none;
-    word-break: break-word;
 }
 
 .g-top-asset {
