@@ -1,11 +1,27 @@
+<!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
 <nav class="navbar navbar-expand-sm bg-light">
     <div class="container-fluid">
-        <div class="navbar-nav">
-            <!-- # ml-auto -->
-            <a class="nav-link active" aria-current="page" href="{{ site.url }}" target="_self">Home</a>
-            <a class="nav-link links" href="{{ site.url }}/elections" target="_self">Swedish elections
-                2022</a>
-            <a class="nav-link links" href="{{ site.url }}/about" target="_self">About</a>
+        <a class="navbar-link active" aria-current="page" href="{{ site.url }}" target="_self">
+            Home</a>
+        <!-- <i class="fa fa-home" width="30" height="24"></i> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-3 mt-3">
+                <li class="nav-item"> <a class="nav-link links" href="{{ site.url }}/elections" target="_self">Swedish
+                        elections
+                        2022</a></li>
+                <li class="nav-item"> <a class="nav-link links" href="{{ site.url }}/about" target="_self">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="https://twitter.com/@karthik_muth">
+                        <span class="fa-stack fa-lg">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                    </a>
+                </li>
         </div>
 
     </div>
