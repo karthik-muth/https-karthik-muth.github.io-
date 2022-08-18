@@ -40,8 +40,9 @@ title: Some of my stories
           <div class="col">
             <div class="card-body">
               <p class="fs-5 fw-semibold"> {{ i.title }} </p>
-              {% for t in i.tags %}
-              <span class="badge">{{ t.name }}</span>
+              {% assign labels = i.labels | split: ' ' %}
+              {% for t in labels %}
+              <span class="badge">{{ t }}</span>
               {% endfor %}
             </div>
           </div>
