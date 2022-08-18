@@ -3,8 +3,8 @@ layout: default
 title: Some of my stories
 ---
 
-<div class="container py-5">
-  <div class="row  justify-content-center">
+<div class="container">
+  <div class="row py-5  justify-content-center">
     <div class="col-11">
       <h5>Hello 👋,<br /><br />I’m <a href="{{ site.url }}/about">Karthik</a>, a visual journalist and a software
         developer,
@@ -16,143 +16,42 @@ title: Some of my stories
       <br /><br />
     </div>
   </div>
-</div>
 
 
-
-<div class="container">
   <div class="row row-cols-1 gy-5 justify-content-center">
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for i in sorted_pages %}
+    {% if i.order %}
 
     <div class="col">
-      <div class="card" onclick="location.href='feel';">
+      <div class="card"
+        onclick="window.open(location.href='{{ site.url }}/{{ i.path }}', '_blank', 'noopener,noreferrer')">
         <div class="row">
+
           <div class="col-md-4">
-            <img src="feel/gif.gif" class="img-fluid rounded-start" alt="...">
+            {% if i.image %}
+            <img src="{{ site.url }}{{ i.dir }}png.png" class="img-fluid rounded-start" alt="...">
+            {% else i.image %}
+            <!-- default is gif -->
+            <img src="{{ site.url }}{{ i.dir }}gif.gif" class="img-fluid rounded-start" alt="...">
+            {% endif %}
           </div>
+
           <div class="col">
             <div class="card-body">
-              <p class="fs-5 fw-semibold">
-                QUIZ - Do you feel what others around you feel?
-              </p>
-              <span class="badge">Culture</span>
-              <span class="badge">Emotions</span>
-              <span class="badge">Quiz</span>
-              <span class="badge">Scrolly</span>
+              <p class="fs-5 fw-semibold"> {{ i.title }} </p>
+              {% for t in i.tags %}
+              <span class="badge">{{ t.name }}</span>
+              {% endfor %}
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="col">
-      <div class="card" onclick="location.href='multiculturalism';">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="multiculturalism/gif.gif" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col">
-            <div class="card-body">
-              <p class="fs-5 fw-semibold">
-                A visual history of "multiculturalism" in Sweden - and the
-                society's attitude towards it
-              </p>
-              <span class="badge">Immigration</span>
-              <span class="badge">Integration</span>
-              <span class="badge">Diversity</span>
-              <span class="badge">Scrolly</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% endif %}
+    {% endfor %}
 
-    <div class="col">
-      <div class="card" onclick="location.href='societal_problems';">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="societal_problems/gif.gif" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col">
-            <div class="card-body">
-              <p class="fs-5 fw-semibold">
-                Crime is the most important issue – but it depends on who you
-                ask
-              </p>
-              <span class="badge">Crime</span>
-              <span class="badge">societal problems</span>
-              <span class="badge">Environment</span>
-              <span class="badge">Scrolly</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col ">
-      <div class="card" onclick="location.href='left_right_identification';">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="left_right_identification/gif.gif" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col">
-            <div class="card-body">
-              <p class="fs-5 fw-semibold">How men became more right-wing than women in Sweden</p>
-              <span class="badge">Polarisation</span>
-              <span class="badge">Political position</span>
-              <span class="badge">Party sympathy</span>
-              <span class="badge ">Scrolly</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col ">
-      <div class="card" onclick="location.href='municipal_councils';">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="municipal_councils/gif.gif" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col">
-            <div class="card-body">
-              <p class="fs-5 fw-semibold">How gender equal are the Swedish municipal councils?</p>
-              <span class="badge">Gender inequality</span>
-              <span class="badge">Local government</span>
-              <span class="badge">Party representation</span>
-              <span class="badge ">Maps</span>
-              <span class="badge ">Scrolly</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col ">
-      <div class="card" onclick="location.href='trends'
-                    ;">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="trends/ebba.png" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col">
-
-            <div class="card-body">
-              <p class="fs-5 fw-semibold">Ebba Busch is the most googled politician ahead of the elections
-              </p>
-              <span class="badge">Media analysis</span>
-              <span class="badge">Party leaders</span>
-              <span class="badge ">Live</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div class="container">
-  <div class="row row-cols-1 py-4 gy-5 justify-content-center">
 
     {% for i in site.data.medium %}
     <div class="col">
@@ -177,6 +76,8 @@ title: Some of my stories
 
   </div>
 </div>
+
+
 
 <footer class="d-flex justify-content-center align-items-center bg-light text-dark">
   This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
