@@ -17,4 +17,4 @@ Unt.se.
 
 Note: The Google Trends search interest for the other party leaders were too low and hence not included in the graph.
 
-
+Visualisation made with Datawrapper.
