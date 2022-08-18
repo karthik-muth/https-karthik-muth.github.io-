@@ -19,9 +19,11 @@ title: Some of my stories
 
 
   <div class="row row-cols-1 gy-5 justify-content-center">
+
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for i in sorted_pages %}
     {% if i.order %}
+    <!-- order 0 won't be included -->
 
     <div class="col">
       <div class="card"
@@ -30,9 +32,10 @@ title: Some of my stories
 
           <div class="col-md-4">
             {% if i.image %}
+            <!-- default is gif -->
             <img src="{{ site.url }}{{ i.dir }}png.png" class="img-fluid rounded-start" alt="...">
             {% else i.image %}
-            <!-- default is gif -->
+
             <img src="{{ site.url }}{{ i.dir }}gif.gif" class="img-fluid rounded-start" alt="...">
             {% endif %}
           </div>
