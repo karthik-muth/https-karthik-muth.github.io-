@@ -8,7 +8,7 @@ _"Multiculturalism is used in reference to ethnic pluralism in terms of race, et
 
 Thus Sweden, along with Canada and Australia, became one of the first countries in the West to adopt this idea formally. Since then, immigration to Sweden has been steadily increasing.
 
-In the recent years, "the political and media discourse has focused on the shortcomings of Swedish immigration policies. This discourse has negatively affected the public opinion and Sweden has experienced a steady increase in sympathy for anti-immigration policies", according to a [study on attitudes towards immigration and ethnic diversity](https://www.mdpi.com/2076-0760/10/10/401/htm).
+In recent years, "the political and media discourse has focused on the shortcomings of Swedish immigration policies. This discourse has negatively affected public opinion and Sweden has experienced a steady increase in sympathy for anti-immigration policies", according to a [study on attitudes towards immigration and ethnic diversity](https://www.mdpi.com/2076-0760/10/10/401/htm).
 
 
 **A brief look before the 1970s**
