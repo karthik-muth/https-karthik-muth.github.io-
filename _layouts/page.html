@@ -30,10 +30,14 @@
 
 
     {{ content }}
-
     <div class="container-fluid py-5">
         <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <applause-button url="{{ site.url }}{{ page.dir }}" multiclap="true"
+                    style="width: 44px; height: 44px;" />
+            </div>
             <div class="col-lg-7 col-11">
+
                 <hr>
                 <p class="text-body-2">
                     {% capture f %}
@@ -50,6 +54,7 @@
             </div>
         </div>
     </div>
+
 
     <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
     <script src="https://unpkg.com/intersection-observer"></script>

@@ -1,6 +1,6 @@
 
-Did you enjoy this storytelling? Check out some of my [other stories](https://karthik-muth.github.io/).
+Did you enjoy this story? You can appreciate it by clapping -  click on the clap button above up to ten times depending on how much you liked it. You can also check out some of my [other stories]({{ site.url }}).
 
 Do you want to give feedback or want or just want to discuss something? Did you find something interesting while exploring the graphs? It is potentially a new story! 
 
-Your feedback/feedforward is highly valuable to me! Don't hesitate to contact me on Twitter [@karthik\_muth](https://twitter.com/karthik_muth) or email at feedforward.tome@gmail.com.
+Your feedback/feedforward is highly valuable to me! Don't hesitate to contact me on Twitter [@karthi_muth](https://twitter.com/karthik_muth) or email me at feedforward.tome@gmail.com.
