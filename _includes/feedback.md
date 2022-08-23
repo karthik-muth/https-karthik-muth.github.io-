@@ -3,4 +3,4 @@ Did you enjoy this story? You can appreciate it by clapping -  click on the clap
 
 Do you want to give feedback or want or just want to discuss something? Did you find something interesting while exploring the graphs? It is potentially a new story! 
 
-Your feedback/feedforward is highly valuable to me! Don't hesitate to contact me on Twitter [@karthi_muth](https://twitter.com/karthik_muth) or email me at feedforward.tome@gmail.com.
+Your feedback/feedforward is highly valuable to me! Don't hesitate to contact me on Twitter [@karthik_muth](https://twitter.com/karthik_muth) or email me at feedforward.tome@gmail.com.
