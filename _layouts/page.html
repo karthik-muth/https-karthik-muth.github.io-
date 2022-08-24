@@ -45,33 +45,33 @@
             {% if r1.dir %}
 
 
-            <div class="col-lg-10">
+            <div class="col-lg-11">
                 <p class="text-body-2">
                     <b>Related stories:</b>
                 </p>
             </div>
 
 
-            {% for r in r_list %}
-            {% if r.dir %}
+            {% for i in r_list %}
+            {% if i.dir %}
 
 
-            {% if r.image %}
+            {% if i.image %}
             {% assign img = "png.png" %}
             {% else %}
             {% assign img = "gif.gif" %}
             {% endif %}
 
-            <div class="col-lg-5">
-                <div class="card" onclick="location.href='{{ site.url }}{{ r.dir }}';">
+            <div class="col-lg-6">
+                <div class="card" onclick="location.href='{{ site.url }}{{ i.dir }}';">
                     <div class="row">
-                        <div class="col-lg-4">
-                            <img src="{{ site.url }}{{ r.dir }}{{ img }}" class="card-img-2 img-fluid rounded-start"
+                        <div class="col-5">
+                            <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img-2 img-fluid rounded-start"
                                 alt="...">
                         </div>
                         <div class="col">
                             <div class="card-body">
-                                <p class="fw-semibold"> {{ r.title }} </p>
+                                <p class="fw-semibold"> {{ i.title }} </p>
                             </div>
                         </div>
                     </div>

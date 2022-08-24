@@ -12,18 +12,6 @@ body {
 
 }
 
-.card-img {
-    width: 100%;
-    height: 18vw;
-    object-fit: cover;
-}
-
-.card-img-2 {
-    width: 100%;
-    height: 14vw;
-    object-fit: contain;
-}
-
 footer {
     position: relative;
     padding: 25px 10px;
@@ -44,6 +32,18 @@ footer {
     box-shadow: 0 1rem 3rem whitesmoke;
     border-width: 0;
     cursor: pointer;
+}
+
+.card-img {
+    width: 100%;
+    height: 18vw;
+    object-fit: cover;
+}
+
+.card-img-2 {
+    width: 100%;
+    height: 12vw;
+    object-fit: contain;
 }
 
 .font-secondary {
@@ -223,6 +223,10 @@ iframe {
     }
 
     .card-img {
+        height: auto;
+    }
+
+    .card-img-2 {
         height: auto;
     }
 }
