@@ -12,31 +12,77 @@
     {% include navbar.html %}
     {% include scripts.html %}
 
-
-    <div class="container-fluid py-5">
-        <div class="row  justify-content-center">
-            <div class="col-lg-7 col-11">
-                <p class="text-h2">{{ page.title }}</p>
-                <br /><br />
-                <p class="text-body-2">
-                    {% capture intro %}
-                    {% include_relative intro.md %}
-                    {% endcapture %}
-                    {{ intro | markdownify }}
-                </p>
-            </div>
+    <div class="row  justify-content-center">
+        <div class="col-lg-7 col-11">
+            <p class="text-h2">{{ page.title }}</p>
+            <br /><br />
+            <p class="text-body-2">
+                {% capture intro %}
+                {% include_relative intro.md %}
+                {% endcapture %}
+                {{ intro | markdownify }}
+            </p>
         </div>
     </div>
 
 
     {{ content }}
+
     <div class="container-fluid py-5">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center gy-5">
             <div class="col-lg-7">
+                <hr>
+                <p class="text-body-2">Did you enjoy this story? Appreciate by clapping and share with others.</p>
                 <applause-button url="{{ site.url }}{{ page.dir }}" multiclap="true"
                     style="width: 44px; height: 44px;" />
             </div>
-            <div class="col-lg-7 col-11">
+
+
+            <!-- Related stories -->
+            {% assign r1 = site.pages | sort:"order" | where_exp: "item", "item.order > page.order" | first %}
+            {% assign r2 = site.pages | sort:"order" | where_exp: "item", "item.order > page.order" | shift | first %}
+            {% assign r_list = "" | split: ',' | push: r1 | push: r2 %}
+            {% if r1.dir %}
+
+
+            <div class="col-lg-10">
+                <p class="text-body-2">
+                    <b>Related stories:</b>
+                </p>
+            </div>
+
+
+            {% for r in r_list %}
+            {% if r.dir %}
+
+
+            {% if r.image %}
+            {% assign img = "png.png" %}
+            {% else %}
+            {% assign img = "gif.gif" %}
+            {% endif %}
+
+            <div class="col-lg-5">
+                <div class="card" onclick="location.href='{{ site.url }}{{ r.dir }}';">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="{{ site.url }}{{ r.dir }}{{ img }}" class="card-img-2 img-fluid rounded-start"
+                                alt="...">
+                        </div>
+                        <div class="col">
+                            <div class="card-body">
+                                <p class="fw-semibold"> {{ r.title }} </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+
+
+            <div class="col-lg-8 col-11">
 
                 <hr>
                 <p class="text-body-2">

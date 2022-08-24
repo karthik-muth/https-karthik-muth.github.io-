@@ -19,25 +19,26 @@ title: Home
 
 
   <div class="row row-cols-1 gy-5 justify-content-center">
-
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for i in sorted_pages %}
-    {% if i.order %}
+
     <!-- order 0 won't be included -->
+    {% if i.order %}
+
+    <!-- default is gif -->
+    {% if i.image %}
+    {% assign img = "png.png" %}
+    {% else %}
+    {% assign img = "gif.gif" %}
+    {% endif %}
 
     <div class="col">
       <div class="card"
-        onclick="window.open(location.href='{{ site.url }}/{{ i.path }}', '_blank', 'noopener,noreferrer')">
+        onclick="window.open(location.href='{{ site.url }}{{ i.dir }}', '_blank', 'noopener,noreferrer')">
         <div class="row">
 
           <div class="col-md-4">
-            {% if i.image %}
-            <!-- default is gif -->
-            <img src="{{ site.url }}{{ i.dir }}png.png" class="card-img img-fluid rounded-start" alt="...">
-            {% else i.image %}
-
-            <img src="{{ site.url }}{{ i.dir }}gif.gif" class="card-img img-fluid rounded-start" alt="...">
-            {% endif %}
+            <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img img-fluid rounded-start" alt="...">
           </div>
 
           <div class="col">
