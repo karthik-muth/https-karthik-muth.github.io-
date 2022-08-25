@@ -1,6 +1,6 @@
 
 Hello 👋, 
-I'm Karthik Muthuswamy, a visual journalist and a software developer based in Stockholm. I enjoy creating visual stories using
+I'm Karthik Muthuswamy, a freelance visual journalist and a software developer based in Stockholm. I enjoy creating visual stories using
 interactive storytelling techniques.
 
 When I’m not working, I enjoy being in nature, hiking in the mountains or by the sea doing activities like 🧗 ⛷ ⛺️ 🛶 🏊.

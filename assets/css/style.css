@@ -81,25 +81,6 @@ footer {
     text-decoration: none;
 }
 
-.g-top-asset {
-    margin: 0 auto;
-}
-
-.g-asset {
-    position: relative;
-    margin: 25px auto;
-    width: calc(100% - 40px);
-}
-
-.g-asset_inner {
-    position: relative;
-}
-
-.g-image img {
-    max-width: 100%;
-}
-
-
 #scrolly__section {
     position: relative;
 
@@ -241,4 +222,22 @@ iframe {
     line-height: 32px;
     text-align: center;
 
+} */
+
+/* .g-top-asset {
+    margin: 0 auto;
+}
+
+.g-asset {
+    position: relative;
+    margin: 25px auto;
+    width: calc(100% - 40px);
+}
+
+.g-asset_inner {
+    position: relative;
+}
+
+.g-image img {
+    max-width: 100%;
 } */
