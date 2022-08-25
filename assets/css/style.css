@@ -6,12 +6,6 @@ body {
     color: #1d1d1d;
 }
 
-.wrapper {
-    padding: 24px 0;
-    /* flex-grow: 1; */
-
-}
-
 footer {
     position: relative;
     padding: 25px 10px;
@@ -50,48 +44,25 @@ footer {
     font-family: 'Lora', serif !important;
 }
 
-.text-kicker {
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 32px;
-    text-align: center;
-
-}
-
-.text-h2 {
+.title {
     font-size: 36px;
     line-height: 52px;
     font-weight: bolder;
     text-align: center;
 }
 
-.text-h3 {
+.heading {
     font-size: 26px;
     line-height: 32px;
     font-weight: bolder;
 }
 
-.text-body-2 {
+.text {
     font-size: 16px;
     font-weight: normal;
     line-height: 28px;
 }
 
-.text-body-2 foreign-born {
-    color: #edad08;
-}
-
-.text-body-2 born-in-sweden {
-    color: #A38A00;
-}
-
-.text-body-2 men {
-    color: #73af48;
-}
-
-.text-body-2 women {
-    color: #994e95;
-}
 
 .blockquote {
     font-size: 20px;
@@ -207,12 +178,12 @@ iframe {
         max-width: 100%;
     }
 
-    .text-h2 {
+    .title {
         font-size: 22px;
         line-height: 26px;
     }
 
-    .text-h3 {
+    .heading {
         font-size: 16px;
         line-height: 18px;
     }
@@ -257,4 +228,17 @@ iframe {
         font-size: 12px;
         line-height: 18px;
     }
+} */
+
+/* .wrapper {
+    padding: 24px 0;
+    flex-grow: 1;
+} */
+
+/* .text-kicker {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 32px;
+    text-align: center;
+
 } */

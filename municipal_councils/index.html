@@ -4,7 +4,24 @@ title: How gender equal are the Swedish municipal councils?
 order: 60
 labels: Gender-inequality Local-government Maps Scrolly
 ---
+<style>
+    .text men {
+        color: #73af48;
+    }
 
+    .text women {
+        color: #994e95;
+    }
+
+    .text equal {
+        color: #1d6996;
+    }
+
+    .step {
+        max-width: 90%;
+    }
+
+</style>
 
 <div class="container-fluid py-5">
     <div class="row row-cols-2 gap-1 justify-content-center" id="scrolly__section">
@@ -12,7 +29,7 @@ labels: Gender-inequality Local-government Maps Scrolly
 
             <div class="step" data-step="0">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">Around three-fourth of the municipalities are <equal>equally
+                    <p class="text">Around three-fourth of the municipalities are <equal>equally
                             represented</equal>
                         by men and women. That is, both men and women represent at least 40% and at most 60% in
                         each of these
@@ -21,20 +38,20 @@ labels: Gender-inequality Local-government Maps Scrolly
             </div>
             <div class="step" data-step="1">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">In other words, around one-fourth of the municipalities are <men>
+                    <p class="text">In other words, around one-fourth of the municipalities are <men>
                             dominated by one gender – men</men>
                     </p>
                 </div>
             </div>
             <div class="step" data-step="2">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">...and no municipality is <women>dominated by women</women>
+                    <p class="text">...and no municipality is <women>dominated by women</women>
                     </p>
                 </div>
             </div>
             <div class="step" data-step="3">
                 <div class="text-block pa-2">
-                    <p class="text-body-2"> Helena Löf, an expert in equality statistics at Statistiska
+                    <p class="text"> Helena Löf, an expert in equality statistics at Statistiska
                         centralbyrån, said in a press release:
                         <i>"Considering the 60–40-principle, Sweden has reached gender parity in
                             1994. It has since then remained the same. But one can question if the gender parity
@@ -48,20 +65,20 @@ labels: Gender-inequality Local-government Maps Scrolly
             </div>
             <div class="step" data-step="4">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">90% of the municipalities are <men>dominated by men</men>
+                    <p class="text">90% of the municipalities are <men>dominated by men</men>
                     </p>
                 </div>
             </div>
             <div class="step" data-step="5">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">Trelleborg is the most unequal municipality represented by nearly 75%
+                    <p class="text">Trelleborg is the most unequal municipality represented by nearly 75%
                         <men>men</men>
                     </p>
                 </div>
             </div>
             <div class="step" data-step="6">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">Among the five most <men>men-dominated</men> municipalities, four of
+                    <p class="text">Among the five most <men>men-dominated</men> municipalities, four of
                         them –
                         Trelleborg, Gnosjö, Båstad, Svedala – are in Skåne county. The fifth one is Ljusnarsberg
                         in Örebro county</p>
@@ -70,27 +87,27 @@ labels: Gender-inequality Local-government Maps Scrolly
             <!-- chapter 2 -->
             <div class="step" data-step="7">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">Like the inequality in municipalities, not all the parties are
+                    <p class="text">Like the inequality in municipalities, not all the parties are
                         equally represented by <men>men</men> and <women>women</women>
                     </p>
                 </div>
             </div>
             <div class="step" data-step="8">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">Sverigedemokraterna is the only <men>men-dominated</men> party in
+                    <p class="text">Sverigedemokraterna is the only <men>men-dominated</men> party in
                         Sweden</p>
                 </div>
             </div>
             <div class="step" data-step="9">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">Moderaterna and Kristdemokraterna have barely equal
+                    <p class="text">Moderaterna and Kristdemokraterna have barely equal
                         representation with almost 60% <men>dominated by men</men>
                     </p>
                 </div>
             </div>
             <div class="step" data-step="10">
                 <div class="text-block pa-2">
-                    <p class="text-body-2">The top three <men>men-dominated</men> parties are all political
+                    <p class="text">The top three <men>men-dominated</men> parties are all political
                         positioned on
                         the
                         right. Along with Liberalerna, these parties currently form the opposition</p>
@@ -109,7 +126,7 @@ labels: Gender-inequality Local-government Maps Scrolly
         <div class="col-11">
             <br />
             <hr><br />
-            <p class="text-h3">Explore</p>
+            <p class="heading">Explore</p>
             Here you can explore the representations in Swedish parties. Click on a group to choose one.
             <br><br>
             <div class="flourish-embed flourish-chart" data-src="visualisation/10607702">
@@ -118,6 +135,8 @@ labels: Gender-inequality Local-government Maps Scrolly
         </div>
     </div>
 </div>
+
+
 
 <script>
     var scrolly = d3.select("#scrolly__section");
