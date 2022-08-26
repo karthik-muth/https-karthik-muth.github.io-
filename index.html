@@ -6,20 +6,25 @@ title: Home
 <div class="container">
   <div class="row py-5  justify-content-center">
     <div class="col-11">
-      <h5>Hello 👋,<br /><br />I’m <a href="{{ site.url }}/about">Karthik</a>, a freelance visual journalist and a
+      <p class="fs-5 fw-semibold">Hello 👋,<br />I’m <a href="{{ site.url }}/about">Karthik</a>, a freelance
+        visual journalist and a
         software
         developer,
         based
         in Stockholm. Explore some of my
         stories
         below.
-      </h5>
+      </p>
       <br /><br />
+      <p class="fs-5 fw-semibold justify-content-center"><a
+          href="https://karthik-m.medium.com/a-picture-is-worth-a-thousand-words-whats-a-data-viz-worth-6ea3b0d5c66?source=friends_link&sk=60a827d05b1b5a41d5ae43c5c1911553">👉
+          Why
+          I create stories in the way I do?</a></p>
     </div>
   </div>
 
 
-  <div class="row row-cols-1 gy-5 justify-content-center">
+  <div class="row row-cols-1 py-4 gy-5 justify-content-center">
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for i in sorted_pages %}
 

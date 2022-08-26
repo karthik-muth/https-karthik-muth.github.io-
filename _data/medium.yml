@@ -1,15 +1,23 @@
+- name: data_viz
+  title: A picture is worth a thousand words — what’s a data-viz worth?
+  tags:
+  - name: Data-viz
+  - name: Storytelling
+  - name: Data-journalism
+  link: https://karthik-m.medium.com/a-picture-is-worth-a-thousand-words-whats-a-data-viz-worth-6ea3b0d5c66?source=friends_link&sk=60a827d05b1b5a41d5ae43c5c1911553
+
 
 - name: aditi
   title: Reporting climate injustice — and the challenges in making it engaging
   tags:
-  - name: Interview feature
+  - name: Interview-feature
   - name: Environment
   link: https://karthik-m.medium.com/reporting-climate-change-and-the-challenges-in-making-it-engaging-e217db8ea518?source=friends_link&sk=2a3dd19b187780359ae8cbc286e72f7f
 
 - name: guardian_analysis
   title: The Guardian’s reporting on the environment overtakes politics
   tags:
-  - name: Media analysis
+  - name: Media-analysis
   - name: Environment
   link: https://karthik-m.medium.com/the-guardians-reporting-on-the-environment-overtakes-politics-d64e9437bae7?source=friends_link&sk=59ffc51318ca27e9e7735584ada07c95
 
