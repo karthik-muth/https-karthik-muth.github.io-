@@ -5,6 +5,6 @@ Among the lesser known elected officials are the 12,700 members of the municipal
 
 The Swedish national parliament and the 21 regional councils have all achieved gender
 parity. But not all municipal councils are equally represented by men and women,
-according to an analysis on the data from Valmyndigheten.
+according to an analysis on the data from [Valmyndigheten](https://www.val.se/).
 
-The analysis by Karthik Muthuswamy reveals the most unequal municipalities and parties in Sweden.
+This analysis reveals the most unequal municipalities and parties in Sweden.
