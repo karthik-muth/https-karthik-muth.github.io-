@@ -101,6 +101,10 @@
         </div>
     </div>
 
+    <!-- {% if labels.contains == "scrolly" %}
+        add scripts
+    <p class="text">{{ page.dir }} if.. </p>
+    {% endif %} -->
 
     <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
     <script src="https://unpkg.com/intersection-observer"></script>
@@ -109,12 +113,18 @@
     <script src="{{ site.url }}/assets/js/overlay.js"></script>
 
 
-    <!-- {% if page.dir == "/municipal_councils/" %}
-    <p class="text">{{ page.dir }} if.. </p>
-    {% else %}
-    <p class="text">{{ page.dir }} else.. </p>
-    <script src="{{ site.url }}/assets/js/overlay.js"></script>
-    {% endif %} -->
+
+    <footer class="d-flex justify-content-center align-items-center bg-light text-dark">
+        <div> This work is licensed under:<a rel=" license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
+                    alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+        </div>
+        <div class="ps-5"> Connect: <a class="links" href="https://twitter.com/@karthik_muth">
+                Twitter <i style="font-size:24px" class="fa">&#xf099;</i>
+            </a> or <a class="links" href="mailto:papanash.1987@gmail.com">Email</a>
+        </div>
+        <!-- <a href="#top">Back to top</a> -->
+    </footer>
+
 
 </body>
 
