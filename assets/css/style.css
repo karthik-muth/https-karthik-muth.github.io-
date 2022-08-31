@@ -40,10 +40,6 @@ footer {
     object-fit: contain;
 }
 
-.font-secondary {
-    font-family: 'Lora', serif !important;
-}
-
 .title {
     font-size: 36px;
     line-height: 52px;
@@ -240,4 +236,8 @@ iframe {
 
 .g-image img {
     max-width: 100%;
+} */
+
+/* .font-secondary {
+    font-family: 'Lora', serif !important;
 } */
