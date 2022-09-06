@@ -97,6 +97,10 @@
                     {% include_relative outro.md %}
                     {% endcapture %}
                     {{ outro | markdownify }}
+
+                    {% if page.labels contains "Scrolly" %}
+                    {{ "Visualisation made with [Flourish](https://flourish.studio/) and Scrollama." | markdownify }}
+                    {% endif %}
                 </p>
             </div>
         </div>
