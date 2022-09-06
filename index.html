@@ -31,11 +31,13 @@ title: Home
     <!-- order 0 won't be included -->
     {% if i.order %}
 
-    <!-- default is gif -->
+    <!-- default is gif if there is no image -->
     {% if i.image %}
     {% assign img = "png.png" %}
+    {% assign img_alt = i.image_alt %}
     {% else %}
     {% assign img = "gif.gif" %}
+    {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
     {% endif %}
 
     <div class="col">
@@ -44,7 +46,7 @@ title: Home
         <div class="row">
 
           <div class="col-md-4">
-            <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img img-fluid rounded-start" alt="...">
+            <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img img-fluid rounded-start" alt="{{ img_alt }}">
           </div>
 
           <div class="col">

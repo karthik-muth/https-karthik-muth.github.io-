@@ -55,11 +55,12 @@
             {% for i in r_list %}
             {% if i.dir %}
 
-
             {% if i.image %}
             {% assign img = "png.png" %}
+            {% assign img_alt = i.image_alt %}
             {% else %}
             {% assign img = "gif.gif" %}
+            {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
             {% endif %}
 
             <div class="col-lg-6">
@@ -67,7 +68,7 @@
                     <div class="row">
                         <div class="col-5 align-self-center">
                             <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img-2 img-fluid rounded-start"
-                                alt="...">
+                                alt="{{ img_alt }}">
                         </div>
                         <div class="col">
                             <div class="card-body">
