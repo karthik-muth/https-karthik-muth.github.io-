@@ -13,16 +13,16 @@ I'm looking for a job as a data journalist/storyteller or as a developer. I have
 <br><br><br>
 
 #### Techniques and tools used in this website
-This website is created with the support of the following open-source and free applications:
+This website is created with the support of the following open-source and/or free applications:
+- Data: Python, Pandas, Plotly, etc
 - Visualisation tools: Flourish, Datawrapper, Plotly, RawGraphs, Scrollama
-- Web development: Bootstrap, Jekyll, Colin Eberhardt's Appaluse button
-- Data analysis: Python, Pandas, Plotly, etc
+- Web development: Javascript, Bootstrap, Jekyll, Colin Eberhardt's Applause button
 
 In this [article]("https://karthik-m.medium.com/a-picture-is-worth-a-thousand-words-whats-a-data-viz-worth-6ea3b0d5c66?source=friends_link&sk=60a827d05b1b5a41d5ae43c5c1911553), I have explained why I create articles in the way I do.
 <br><br><br>
 
 #### Do you want to publish your articles like this?
-I'm planning to create a platform like [Medium](https://medium.com/) for publishing **visual** articles with customizable code. Are you a content creator who wants to publish your articles on a free platform? Get in touch. Note that Medium is not entirely free for readers and you can't customize it with your code.
+I'm planning to create a platform like [Medium](https://medium.com/) for publishing **visual** articles with customizable code. Are you a content creator who wants to publish your articles on a free platform? Get in touch. Note that Medium is not entirely free for readers and as a publisher, you can't customize your articles with code.
 <br><br><br>
 
 #### Contact

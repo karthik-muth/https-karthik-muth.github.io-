@@ -4,8 +4,8 @@ title: Swedish elections 2022
 ---
 
 <div class="container py-5">
-  <div class="row  justify-content-center">
-    <div class="col-lg-7 col-11">
+  <div class="row gy-3 justify-content-center">
+    <div class="col-lg-8 col-11">
       <p class="title">{{ page.title }}</p>
       <br /><br />
       <p class="text">
@@ -14,6 +14,24 @@ title: Swedish elections 2022
         {% endcapture %}
         {{ intro | markdownify }}
       </p>
+      <br>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <p class="fs-5 fw-semibold accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Read more about interaction types used in these stories.
+            </button>
+          </p>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body table table-striped-columns">
+              {% capture i %}{% include_relative interaction.md %}{% endcapture %}
+              {{ i | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
