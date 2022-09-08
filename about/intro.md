@@ -18,7 +18,7 @@ This website is created with the support of the following open-source and/or fre
 - Visualisation tools: Flourish, Datawrapper, Plotly, RawGraphs, Scrollama
 - Web development: Javascript, Bootstrap, Jekyll, Colin Eberhardt's Applause button
 
-In this [article]("https://karthik-m.medium.com/a-picture-is-worth-a-thousand-words-whats-a-data-viz-worth-6ea3b0d5c66?source=friends_link&sk=60a827d05b1b5a41d5ae43c5c1911553), I have explained why I create articles in the way I do.
+I have explained why I create stories in the way I do [here]("https://karthik-m.medium.com/a-picture-is-worth-a-thousand-words-whats-a-data-viz-worth-6ea3b0d5c66?source=friends_link&sk=60a827d05b1b5a41d5ae43c5c1911553), and about the interactive techniques I have used [here]({{ site.url }}/elections/#interaction).
 <br><br><br>
 
 #### Do you want to publish your articles like this?

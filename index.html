@@ -25,6 +25,12 @@ title: Home
 
 
   <div class="row row-cols-1 py-4 gy-5 justify-content-center">
+    <!-- text-end -->
+    <p class="fst-italic text-secondary">Labels indicate the <span class="badge bg-primary bg-opacity-25">topics</span>
+      of the
+      stories and
+      <span class="badge bg-success bg-opacity-25">techniques</span> used.
+    </p>
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for i in sorted_pages %}
 
@@ -54,8 +60,14 @@ title: Home
               <p class="fs-5 fw-semibold"> {{ i.title }} </p>
               {% assign labels = i.labels | split: ' ' %}
               {% for t in labels %}
-              <span class="badge">{{ t }}</span>
+              <span class="badge bg-primary bg-opacity-25">{{ t }}</span>
               {% endfor %}
+
+              {% assign labels = i.techniques | split: ' ' %}
+              {% for t in labels %}
+              <span class="badge bg-success bg-opacity-25">{{ t }}</span>
+              {% endfor %}
+
             </div>
           </div>
         </div>
@@ -77,7 +89,7 @@ title: Home
             <div class="card-body">
               <p class="fs-5 fw-semibold"> {{ i.title }} </p>
               {% for t in i.tags %}
-              <span class="badge">{{ t.name }}</span>
+              <span class="badge bg-primary bg-opacity-25">{{ t.name }}</span>
               {% endfor %}
 
             </div>
@@ -89,5 +101,3 @@ title: Home
 
   </div>
 </div>
-
-{% include footer.html %}
