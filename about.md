@@ -1,3 +1,7 @@
+---
+layout: text_page
+title: About
+---
 
 #### Hello 👋,
 

@@ -1,6 +1,6 @@
 ---
 layout: text_page
-title: Reflections on why I reported on Swedish elections – and lessons learnt
+title: Reflections on why I reported on Swedish elections – and lessons learned
 ---
 
 ***Here are my reflections on why I chose to report on the elections that would fundamentally shift Sweden's integration policies – and what I learned from it.***
@@ -25,15 +25,15 @@ I'm an **immigrant** and I'm passionate about **journalism**. I happen to do my 
 
 From an immigrant perspective(not by choice), I reported on crime, integration, polarisation and gender inequality in a **series of analyses**.
 
-I created a visual history to take the readers back to the time when [multiculturalism law was adopted]({{ site.url }}/multiculturalism), when [men were more left-wing than women]({{ site.url }}/left_right_identification), and when [environment was the most important issue]({{ site.url }}/societal_problems). I visualised the different perspectives today –including the political issues from different people groups– that did not get proportional attention in mainstream media. I highlighted [the gender inequality in the lesser-known local government]({{ site.url }}/municipal_councils) in one of the most gender-equal countries in the world.
-<br>
+I created a visual history to take the readers back to the time when [multiculturalism law was adopted]({{ site.url }}/multiculturalism), when [men were more left-wing than women]({{ site.url }}/left_right_identification), and when [environment was the most important issue]({{ site.url }}/societal_problems). I visualised the different perspectives today –including the political issues according to different people groups– that did not get proportional attention in mainstream media. I highlighted [the gender inequality in the lesser-known local government]({{ site.url }}/municipal_councils) in one of the most gender-equal countries in the world.
+<br><br>
 
 ##### What's next?
 The election results are here and Sweden might have made **the** fundamental shift.
 
 During this two months project, I learned a lot. Most notably, I understood the **lack of immigrant perspective in Swedish media**. There is a lack of representation of journalists who report on the issues faced by the immigrants in Sweden – a quarter of the Swedish population. There is a lack of diversity(almost absent) in news content for the non-Swedish-speaking community. The media in Sweden –which enjoys being among the best in the world in press freedom– has ignored a portion of its population.
 
-This leads me to one of my next projects – to understand the role of Swedish media in **informing/not-informing** news to immigrants.
+This leads me to one of my next projects: to understand the role of Swedish media in **informing/not-informing** news to immigrants.
 
 Thank you for reading this far. Do you know something that can contribute to this project? get in touch. Do you agree, but don't have much to say? let me know by clapping.
 <applause-button url="{{ site.url }}{{ page.dir }}" multiclap="true"
