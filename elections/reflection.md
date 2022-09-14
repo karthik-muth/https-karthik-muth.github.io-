@@ -19,9 +19,9 @@ This would be a **fundamental political change** for Sweden considering the foll
 <br><br>
 
 ##### What's my connection?
-I'm an **immigrant** and I'm passionate about **journalism**. I happen to do my Master's major project this summer. It made all the sense to understand the big changes that Sweden is going through and report on it.
+I'm an **immigrant** and I'm passionate about **journalism**. I happen to do the major project for my Master's in Data journalism this summer. It made all the sense to understand the big changes that Sweden is going through and report on it.
 
-**Integration was one of the main and most discussed political issues**. The political discourse and debates from the majority of the big parties arguably focused on the failed integration policies. Crime, another political issue, was grouped with the issue of integration.
+**Integration** was one of the main and most discussed **political issues**. The political discourse and debates from the majority of the big parties arguably focused on the failed integration policies. Crime, another political issue, was grouped with the issue of integration.
 
 From an immigrant perspective(not by choice), I reported on crime, integration, polarisation and gender inequality in a **series of analyses**.
 
@@ -36,5 +36,10 @@ During this two months project, I learned a lot. Most notably, I understood the 
 This leads me to one of my next projects: to understand the role of Swedish media in **informing/not-informing** news to immigrants.
 
 Thank you for reading this far. Do you know something that can contribute to this project? get in touch. Do you agree, but don't have much to say? let me know by clapping.
+
+<div>
 <applause-button url="{{ site.url }}{{ page.dir }}" multiclap="true"
     style="width: 44px; height: 44px;" />
+</div><Br>
+
+*You can find all my elections stories [here]({{ site.url }}/elections).*
