@@ -9,11 +9,17 @@ When I’m not working, I enjoy being in nature, hiking in the mountains or by t
 
 
 #### I'm looking for a job
-I'm looking for a job as a data journalist/storyteller or as a developer. I have more than a decade's work experience. Here is my [LinkedIn profile](https://www.linkedin.com/in/papanash/).
+I'm looking for a job as a data journalist/storyteller or something related.
+
+Do you want to turn your information/reports into a visual story? Are you a content creator that is looking for a collaborator? Get in touch.
+
+**Software and technology:** I have more than a decade's work experience in several platforms and programming languages. Here is my [LinkedIn profile](https://www.linkedin.com/in/papanash/).
+
+**Data journalism:** This website is my portfolio as a data journalist and it's under development. You can find the stories I created as part of the major project for my Master’s in data journalism [here]({{ site.url }}/elections).
 <br><br><br>
 
 #### Techniques and tools used in this website
-This website is created with the support of the following open-source and/or free applications:
+This website was created with a lot of care. It was possible because of the support of the following open-source and/or free applications:
 - Data: Python, Pandas, Plotly, etc
 - Visualisation tools: Flourish, Datawrapper, Plotly, RawGraphs, Scrollama
 - Web development: Javascript, Bootstrap, Jekyll, Colin Eberhardt's Applause button
