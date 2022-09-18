@@ -22,6 +22,10 @@ Do you want to turn your information/reports into a visual story? Are you a cont
 **Data journalism:** This website is my portfolio as a data journalist and it's under development. You can find the stories I created as part of the major project for my Master’s in data journalism [here]({{ site.url }}/elections).
 <br><br><br>
 
+#### I'm also creating a platform for publishing
+I'm planning to create a platform like [Medium](https://medium.com/) for publishing **visual** articles with customizable code. Are you a content creator/journalist who wants to publish your articles on a free platform? Get in touch. Note that Medium is not entirely free for readers and as a publisher, you can't customize your articles with code.
+<br><br><br>
+
 #### Techniques and tools used in this website
 This website was created with a lot of care. It was possible because of the support of the following open-source and/or free applications:
 - Data: Python, Pandas, Plotly, etc
@@ -29,10 +33,6 @@ This website was created with a lot of care. It was possible because of the supp
 - Web development: Javascript, Bootstrap, Jekyll, Colin Eberhardt's Applause button
 
 I have explained why I create stories in the way I do [here]("https://karthik-m.medium.com/a-picture-is-worth-a-thousand-words-whats-a-data-viz-worth-6ea3b0d5c66?source=friends_link&sk=60a827d05b1b5a41d5ae43c5c1911553), and about the interactive techniques I have used [here]({{ site.url }}/elections/#interaction).
-<br><br><br>
-
-#### Do you want to publish your articles like this?
-I'm planning to create a platform like [Medium](https://medium.com/) for publishing **visual** articles with customizable code. Are you a content creator who wants to publish your articles on a free platform? Get in touch. Note that Medium is not entirely free for readers and as a publisher, you can't customize your articles with code.
 <br><br><br>
 
 #### Contact
