@@ -10,3 +10,4 @@ I visualised the different perspectives on the top political issues – that did
 
 I highlighted [the gender inequality in the lesser-known local government]({{ site.url }}/municipal_councils) in one of the most gender-equal countries in the world.
 
+*Note: You can explore the data using the charts found at the end of the article.*

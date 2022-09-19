@@ -1,10 +1,9 @@
 
 
-### Sources
-My resources include reports from the research institutions, discussions with experts and data from various governmental institutions and research publications.
+My **sources** include reports from the research institutions, discussions with experts and data from various governmental institutions and research publications.
 
-### Interaction techniques used
-I created most of the following articles using [scrollytelling](https://medium.com/nightingale/from-storytelling-to-scrollytelling-a-short-introduction-and-beyond-fbda32066964) and other interactive techniques. You can explore the data using the charts found often at the end of the article.
+
+I created most of the following articles using [scrollytelling](https://medium.com/nightingale/from-storytelling-to-scrollytelling-a-short-introduction-and-beyond-fbda32066964) and other **interactive** techniques.
 
 
 | Story name                       | Chart type  | Scrolly movement-/Interaction type |
