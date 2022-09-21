@@ -1,0 +1,58 @@
+---
+title: Burger
+---
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  {% include head.html %}
+  <title>karthik | {{ page.title }}</title>
+</head>
+
+<body>
+  {% include scripts.html %}
+  <style>
+    .left {
+      width: 50%;
+      position: fixed;
+      left: 0%;
+
+    }
+
+    .right {
+      padding-left: 50%;
+    }
+
+    /* .left img {
+      height: auto;
+      max-width: 100%;
+      outline: 0;
+    } */
+
+  </style>
+
+
+  <div class="container-10 p-5">
+
+    <h1 class="text-center">Here is what you can eat instead of a beef burger
+      <small class="text-muted">
+        <br>– and how many of those
+        <br>for the same amount of nutrition
+        <br>and carbon footprint
+      </small>
+    </h1>
+
+    <div class="row row-cols-2 gap-1 justify-content-center" id="scrolly__section">
+      <div class="col left">
+        <img class="img-fluid" src="burger_equal.png"></img>
+      </div>
+      <div class="col right">
+        <img class="img-fluid" src="meals.png"></img>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
