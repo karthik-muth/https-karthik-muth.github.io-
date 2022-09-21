@@ -1,75 +1,75 @@
 ---
+layout: default
 title: Burger
 ---
 
-<!DOCTYPE html>
 
-<html>
+<style>
+  .wrapper {
+    position: relative;
 
-<head>
-  {% include head.html %}
-  <title>karthik | {{ page.title }}</title>
-</head>
+  }
 
-<body>
-  {% include scripts.html %}
-  <style>
+  .left {
+    width: 50%;
+    position: sticky;
+    top: 100px;
+    left: 0%;
+    margin-right: 0;
+  }
+
+  .right {
+    top: 100px;
+    padding-left: 50%;
+  }
+
+  @media (max-width: 768px) {
     .left {
-      width: 50%;
-      position: sticky;
-      top: 100px;
-      left: 0%;
-
+      width: 33%;
     }
 
     .right {
-      top: 100px;
-      padding-left: 50%;
+      padding-left: 33%;
     }
+  }
 
-    @media (max-width: 768px) {
-      .left {
-        width: 33%;
-      }
-
-      .right {
-        padding-left: 33%;
-      }
-    }
-
-  </style>
+</style>
 
 
-  <div class="container p-5">
+<div class="container p-5">
 
-    <h1 class="text-center">Here is what you can eat instead of a beef burger
-      <small class="text-muted">
-        <br>– and how many times
-        <br>for the same amount of nutrition
-        <br>and carbon footprint
-      </small>
-    </h1>
+  <h1 class="text-center">Here is what you can eat instead of a beef burger
+    <small class="text-muted">
+      <br>for the same nutritional value
+      <br>and carbon footprint
+    </small>
+  </h1>
 
-    <div id="scrolly__section">
-      <div class="col left">
-        <img class="img-fluid" src="burger_equal.png"></img>
-      </div>
-      <div class="col right">
-        <img class="img-fluid" src="meals2.png"></img>
-      </div>
+  <div class="wrapper">
+    <div class="col left">
+      <img class="img-fluid" src="burger_equal.png"></img>
+    </div>
+    <div class="col right">
+      <img class="img-fluid" src="meals.png"></img>
     </div>
   </div>
 
 
-  <div class="row justify-content-center row2">
-    <div class="col-lg-10">
+  <div class="row justify-content-center gy-5">
+    <div class="col-lg-11">
       <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/11242685">
         <script src="https://public.flourish.studio/resources/embed.js"></script>
       </div>
     </div>
-  </div>
-  </div>
 
-</body>
+    <div class="col-lg-8 col-11">
+      <hr>
+      <p>
+        <b>Method and data</b><br>
 
-</html>
+        This was created By @geokaramanis and me, based on data and research from <a
+          href="https://ourworldindata.org/explorers/food-footprints">OurWorldInData</a>.
+      </p>
+
+    </div>
+  </div>
