@@ -25,6 +25,16 @@ title: Burger
       padding-left: 50%;
     }
 
+    @media (max-width: 768px) {
+      .left {
+        width: 33%;
+      }
+
+      .right {
+        padding-left: 33%;
+      }
+    }
+
     /* .left img {
       height: auto;
       max-width: 100%;
@@ -34,7 +44,7 @@ title: Burger
   </style>
 
 
-  <div class="container-10 p-5">
+  <div class="container p-5">
 
     <h1 class="text-center">Here is what you can eat instead of a beef burger
       <small class="text-muted">
@@ -52,7 +62,14 @@ title: Burger
         <img class="img-fluid" src="meals.png"></img>
       </div>
     </div>
-  </div>
+
+    <!-- <div class="row justify-content-center">
+      <div class="col">
+        <iframe
+          src="https://ourworldindata.org/explorers/food-footprints?facet=none&uniformYAxis=0&Commodity+or+Specific+Food+Product=Specific+food+products&Environmental+Impact=Carbon+footprint&Kilogram+%2F+Protein+%2F+Calories=Per+kilogram&By+stage+of+supply+chain=false&country=Beef+%28beef+herd%29~Lamb+%26+Mutton~Beef+%28dairy+herd%29~Prawns+%28farmed%29~Cheese~Pig+Meat~Poultry+Meat~Eggs~Rice~Tofu+%28soybeans%29~Milk~Tomatoes~Maize~Wheat+%26+Rye~Peas~Bananas~Potatoes~Nuts~Almonds~Avocados~Beef+burger~Cow%27s+milk~Dairy-free+ice+cream~Lentils~Vegan+pizza~Almond+milk~Bread~Meat+pizza~Vegetable+lasagne~Macaroni+cheese~Coconut+milk&hideControls=true"
+          loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
+      </div>
+    </div> -->
 </body>
 
 </html>
