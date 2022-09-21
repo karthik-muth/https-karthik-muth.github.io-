@@ -14,18 +14,16 @@ title: Burger
 <body>
   {% include scripts.html %}
   <style>
-    /* .wrapper {
-      position: absolute;
-    } */
-
     .left {
       width: 50%;
-      position: fixed;
+      position: sticky;
+      top: 100px;
       left: 0%;
 
     }
 
     .right {
+      top: 100px;
       padding-left: 50%;
     }
 
@@ -38,12 +36,6 @@ title: Burger
         padding-left: 33%;
       }
     }
-
-    /* .left img {
-      height: auto;
-      max-width: 100%;
-      outline: 0;
-    } */
 
   </style>
 
@@ -58,7 +50,7 @@ title: Burger
       </small>
     </h1>
 
-    <div class="row row-cols-2 gap-1 justify-content-center" id="scrolly__section">
+    <div id="scrolly__section">
       <div class="col left">
         <img class="img-fluid" src="burger_equal.png"></img>
       </div>
@@ -66,14 +58,17 @@ title: Burger
         <img class="img-fluid" src="meals2.png"></img>
       </div>
     </div>
+  </div>
 
-    <!-- <div class="row justify-content-center">
-      <div class="col">
-        <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/11242685">
-          <script src="https://public.flourish.studio/resources/embed.js"></script>
-        </div>
+
+  <div class="row justify-content-center row2">
+    <div class="col-lg-10">
+      <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/11242685">
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
       </div>
-    </div> -->
+    </div>
+  </div>
+  </div>
 
 </body>
 
