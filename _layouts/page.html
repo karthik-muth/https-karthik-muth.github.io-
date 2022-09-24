@@ -33,7 +33,7 @@
 
     {{ content }}
 
-    <!-- clapping, Related stories, feedback -->
+    <!-- clapping, Related stories, feedback, method, vis credits -->
     <div class="container-fluid py-3">
         <div class="row justify-content-center gy-5">
             <div class="col-lg-7">
@@ -102,7 +102,7 @@
                     {% endcapture %}
                     {{ outro | markdownify }}
 
-                    {% if page.labels contains "Scrolly" %}
+                    {% if page.techniques contains "Scrolly" %}
                     {{ "Visualisation made with [Flourish](https://flourish.studio/) and Scrollama." | markdownify }}
                     {% endif %}
                 </p>
@@ -112,15 +112,14 @@
         </div>
     </div>
 
-    <!-- if labels.contains == "scrolly"
-        add scripts
-    <p class="text">{{ page.dir }} if.. </p>  -->
-
+    {% if page.techniques contains "Scrolly" %}
     <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
     <script src="https://unpkg.com/intersection-observer"></script>
     <script src="https://unpkg.com/scrollama"></script>
     <script src="https://public.flourish.studio/resources/embed.js"></script>
     <script src="{{ site.url }}/assets/js/overlay.js"></script>
+    {% endif %}
+
 
     {% include footer.html %}
 </body>
