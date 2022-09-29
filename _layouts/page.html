@@ -36,7 +36,7 @@
     <!-- clapping, Related stories, feedback, method, vis credits -->
     <div class="container-fluid py-3">
         <div class="row justify-content-center gy-5">
-            <div class="col-lg-7">
+            <div class="col-lg-10">
                 <hr>
                 <p class="text">Did you enjoy this story? Appreciate by clapping and share with others.</p>
                 <applause-button url="{{ site.url }}{{ page.dir }}" multiclap="true"
@@ -49,10 +49,8 @@
             {% if r1.dir %}
 
 
-            <div class="col-8">
-                <p class="heading text-center fw-semibold">
-                    <b>You may also like</b>
-                </p>
+            <div class="col-lg-10">
+                <p class="heading text-center fw-semibold"><b>You may also like</b></p>
             </div>
 
 
@@ -67,7 +65,7 @@
             {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
             {% endif %}
 
-            <div class="col-md-5">
+            <div class="col-md-5 d-flex">
                 <div class="card" onclick="location.href='{{ site.url }}{{ i.dir }}';">
                     <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img-top img-thumbnail"
                         alt="{{ img_alt }}">
@@ -78,23 +76,19 @@
             </div>
             {% endif %}
             {% endfor %}
+
+            <hr>
             {% endif %}
 
 
-            <div class="col-lg-8 col-11">
+            <div class="col-lg-10 col-11">
 
-                <hr>
                 <p class="text">
-                    {% capture f %}
+                    {% capture md %}
                     {% include feedback.md %}
-                    {% endcapture %}
-                    {{ f | markdownify }}
-                </p>
-                <p class="text">
-                    {% capture outro %}
                     {% include_relative outro.md %}
                     {% endcapture %}
-                    {{ outro | markdownify }}
+                    {{ md | markdownify }}
 
                     {% if page.techniques contains "Scrolly" %}
                     {{ "Visualisation made with [Flourish](https://flourish.studio/) and Scrollama." | markdownify }}
