@@ -49,9 +49,9 @@
             {% if r1.dir %}
 
 
-            <div class="col-lg-11">
-                <p class="text">
-                    <b>More stories:</b>
+            <div class="col-8">
+                <p class="heading text-center fw-semibold">
+                    <b>You may also like</b>
                 </p>
             </div>
 
@@ -67,18 +67,12 @@
             {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
             {% endif %}
 
-            <div class="col-lg-6">
+            <div class="col-md-5">
                 <div class="card" onclick="location.href='{{ site.url }}{{ i.dir }}';">
-                    <div class="row">
-                        <div class="col-5 align-self-center">
-                            <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img-2 img-fluid rounded-start"
-                                alt="{{ img_alt }}">
-                        </div>
-                        <div class="col">
-                            <div class="card-body">
-                                <p class="fw-semibold"> {{ i.title }} </p>
-                            </div>
-                        </div>
+                    <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img-top img-thumbnail"
+                        alt="{{ img_alt }}">
+                    <div class="card-body">
+                        <p class="card-text fw-semibold"> {{ i.title }} </p>
                     </div>
                 </div>
             </div>
