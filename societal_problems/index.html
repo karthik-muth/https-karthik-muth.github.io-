@@ -6,40 +6,41 @@ labels: Crime societal-problems Environment
 techniques: Scrolly
 ---
 <style>
-    .text men {
+    mark {
+        color: white;
+    }
+
+    #men {
         background-color: #007500;
     }
 
-    .text women {
+
+    #women {
         background-color: #00D100;
     }
 
-    .text age1 {
+    #age1 {
         background-color: #ADD8E6;
     }
 
-    .text age2 {
+    #age2 {
         background-color: #4169E1;
     }
 
-    .text age3 {
+    #age3 {
         background-color: #0000FF;
     }
 
-    .text age4 {
+    #age4 {
         background-color: #00008B;
     }
 
-    .text left {
+    #left {
         background-color: #CB8AFF;
     }
 
-    .text right {
+    #right {
         background-color: #420075;
-    }
-
-    .text>* {
-        color: white;
     }
 
 </style>
@@ -61,7 +62,8 @@ techniques: Scrolly
             <div class="step" data-step="1">
                 <div class="text-block pa-2">
                     <p class="text">
-                        While <men>men</men> place more importance on crime and integration, <women>women</women>
+                        While <mark id="men">men</mark> place more importance on crime and integration, <mark
+                            id="women">women</mark>
                         chose education and healthcare. Both the gender
                         place equal importance on environment.
                     </p>
@@ -70,7 +72,7 @@ techniques: Scrolly
             <div class="step" data-step="2">
                 <div class="text-block pa-2">
                     <p class="text">
-                        For young people (in the age group <age1>16-29</age1>), environment is the most
+                        For young people (in the age group <mark id="age1">16-29</mark>), environment is the most
                         important issue. Education however, was not on their top five.
                     </p>
                 </div>
@@ -79,7 +81,7 @@ techniques: Scrolly
                 <div class="text-block pa-2">
                     <p class="text">
                         and the environment is the only 5th most important issue for
-                        people in the age group <age2>30-49</age2>. They care about integration
+                        people in the age group <mark id="age2">30-49</mark>. They care about integration
                         the most.
                     </p>
                 </div>
@@ -87,7 +89,7 @@ techniques: Scrolly
             <div class="step" data-step="4">
                 <div class="text-block pa-2">
                     <p class="text">
-                        Half of all the older respondents (in the age group <age4>65-85</age4>)
+                        Half of all the older respondents (in the age group <mark id="age4">65-85</mark>)
                         believe that crime is the most important issue.
                     </p>
                 </div>
@@ -95,7 +97,7 @@ techniques: Scrolly
             <div class="step" data-step="5">
                 <div class="text-block pa-2">
                     <p class="text">
-                        and the people in the age-group <age3>50-64</age3> are most similar to the
+                        and the people in the age-group <mark id="age3">50-64</mark> are most similar to the
                         general population.
                     </p>
                 </div>
@@ -103,9 +105,9 @@ techniques: Scrolly
             <div class="step" data-step="6">
                 <div class="text-block pa-2">
                     <p class="text">
-                        People with <right>right-leaning</right> political ideology place the highest
+                        People with <mark id="right">right-leaning</mark> political ideology place the highest
                         importance on crime, followed by integration - in stark contrast
-                        to the people that are <left>left-leaning</left>. The opposite goes for
+                        to the people that are <mark id="left">left-leaning</mark>. The opposite goes for
                         environment.
                     </p>
                 </div>
@@ -117,7 +119,8 @@ techniques: Scrolly
 <div class="container py-5">
     <div class="row gy-5 justify-content-center">
         <div class="col-lg-7 col-11">
-            <p class="text">Henrik Ekengren Oscarsson and Johan Martinsson wrote in a <a
+            <p class="text">
+                Henrik Ekengren Oscarsson and Johan Martinsson wrote in a <a
                     href="https://mediestudier.se/wp-content/uploads/2022/06/vim-03-henriksson_oscarsson.pdf">report</a>
                 that
                 "this is the <b>first time crime has come top since the surveys began</b>". While crime was only the
