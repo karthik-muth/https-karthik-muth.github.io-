@@ -53,7 +53,6 @@
                 <p class="heading text-center fw-semibold"><b>You may also like</b></p>
             </div>
 
-
             {% for i in r_list %}
             {% if i.dir %}
 
@@ -65,13 +64,10 @@
             {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
             {% endif %}
 
-            <div class="col-md-5 d-flex">
-                <div class="card" onclick="location.href='{{ site.url }}{{ i.dir }}';">
-                    <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img-top img-thumbnail"
-                        alt="{{ img_alt }}">
-                    <div class="card-body">
-                        <p class="card-text fw-semibold"> {{ i.title }} </p>
-                    </div>
+            <div class="col-md-5 card" onclick="location.href='{{ site.url }}{{ i.dir }}';">
+                <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img-top img-thumbnail" alt="{{ img_alt }}">
+                <div class="card-body">
+                    <p class="card-text fw-semibold"> {{ i.title }} </p>
                 </div>
             </div>
             {% endif %}
