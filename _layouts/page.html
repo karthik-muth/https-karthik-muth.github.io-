@@ -21,12 +21,10 @@
             {% endif %}
 
             <br /><br />
-            <p class="text">
-                {% capture intro %}
-                {% include_relative intro.md %}
-                {% endcapture %}
-                {{ intro | markdownify }}
-            </p>
+            {% capture intro %}
+            {% include_relative intro.md %}
+            {% endcapture %}
+            {{ intro | markdownify }}
         </div>
     </div>
 
@@ -39,14 +37,14 @@
             {% if page.explore_text %}
             <div class="col-lg-10 col-11">
                 <p class="heading">Explore</p>
-                <p class="text">{{ page.explore_text }}</p>
+                <p>{{ page.explore_text }}</p>
                 {{ page.explore_graph }}
             </div>
             {% endif %}
 
             <div class="col-lg-10">
                 <hr>
-                <p class="text">Did you enjoy this story? Appreciate by clapping and share with others.</p>
+                <p>Did you enjoy this story? Appreciate by clapping and share with others.</p>
                 <applause-button url="{{ site.url }}{{ page.dir }}" multiclap="true"
                     style="width: 44px; height: 44px;" />
             </div>
@@ -81,7 +79,7 @@
             {% endif %}
             {% endfor %}
             <div class="col-lg-10">
-                <p class="text">You can also check out my <a href="{{ site.url }}">other stories here.</a></p>
+                <p>You can also check out my <a href="{{ site.url }}">other stories here.</a></p>
                 <hr>
             </div>
 
@@ -89,19 +87,15 @@
 
 
             <div class="col-lg-10 col-11">
+                {% capture md %}
+                {% include feedback.md %}
+                {% include_relative outro.md %}
+                {% endcapture %}
+                {{ md | markdownify }}
 
-                <p class="text">
-                    {% capture md %}
-                    {% include feedback.md %}
-                    {% include_relative outro.md %}
-                    {% endcapture %}
-                    {{ md | markdownify }}
-
-                    {% if page.techniques contains "Scrolly" %}
-                    {{ "Visualisation made with [Flourish](https://flourish.studio/) and Scrollama." | markdownify }}
-                    {% endif %}
-                </p>
-
+                {% if page.techniques contains "Scrolly" %}
+                {{ "Visualisation made with [Flourish](https://flourish.studio/) and Scrollama." | markdownify }}
+                {% endif %}
             </div>
             <div class="d-flex justify-content-end"> <a class="links" style="font-size:24px" href="#"
                     target="_self">🔝</a></div>
