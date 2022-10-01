@@ -1,0 +1,58 @@
+---
+layout: page
+title: "Big-tech billionaires lost $250 Billion this year - but that is just a third of their pandemic gain"
+labels: Economy Super-rich
+techniques: Scrolly
+steps:
+- '<b>Elon Musk</b> –the richest person in the world– lost more than $80 Billion this year. There are only 12 people in
+the
+world that own so much. Yet he is nearly nine times richer than he was before the pandemic hit.'
+- '<b>Jeff Bezos</b> –the second richest person and founder of Amazon– lost more than $30 Billion this year. Yet, he is
+50%
+richer than he was before the pandemic.'
+- '<b>Bill gates</b> –co-founder of Microsoft– gave away $35 Billion to his foundation in 2021. He is 30% richer now.'
+- 'Larry Page and Sergey Brin – Google founders, Oracle founder Larry Ellison and former Microsoft CEO Steve Ballmer
+have
+all seen big gains in their values.'
+- 'Even <b>Mark Zuckerberg</b>, who lost the most this year, has made a 22% gain.'
+---
+
+{% include scripts_trends.html %}
+
+<div class="container-fluid">
+  <div class="row py-5 gy-5 justify-content-center">
+    <div class="col-lg-7 col-11">
+      <iframe title="Big-tech billionaires nearly lost nearly $250 Billion – that's just a third of their pandemic gain"
+        aria-label="Stacked Column Chart" id="datawrapper-chart-vAeFV" src="https://datawrapper.dwcdn.net/vAeFV/1/"
+        scrolling="no" frameborder="0" style="min-width: 100% !important; border: none;"></iframe>
+    </div>
+
+    <div class="col-12" id="scrolly__section">
+      <div class="scrolly__chart">
+        <iframe scrolling="no" src="https://flo.uri.sh/story/1699169/embed#slide-0"></iframe>
+      </div>
+      <div class="scrolly__content">
+        {% for i in page.steps %}
+        <div class="step">
+          <div class="text-block">
+            <p class="text">{{ i }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col-lg-7 col-11">
+      <p class="text">This includes the billionaires that are in the top 15 on the Forbes list 2022. In addition
+        to the companies connected tho these billionaires, the list of US Big Tech includes 5 more companies:
+        Apple, Nvidia, Salesforce and Abobe according to <a href="https://en.wikipedia.org/wiki/Big_Tech">Wikipedia</a>.
+      </p>
+    </div>
+    <div class="col-lg-10 col-11">
+      <p class="heading">Explore</p>
+      <p class="text">
+        Here are you can compare all the 8 billionaires. Hover over the lines to see the net worth for 2021.
+      </p>
+      <div class="flourish-embed" data-src="story/1699169/embed#slide-6"></div>
+    </div>
+  </div>
+</div>
