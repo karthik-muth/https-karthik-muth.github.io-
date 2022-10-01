@@ -33,9 +33,17 @@
 
     {{ content }}
 
-    <!-- clapping, Related stories, feedback, method, vis credits -->
+    <!--explore, clapping, Related stories, feedback, method, vis credits -->
     <div class="container-fluid py-3">
         <div class="row justify-content-center gy-5">
+            {% if page.explore_text %}
+            <div class="col-lg-10 col-11">
+                <p class="heading">Explore</p>
+                <p class="text">{{ page.explore_text }}</p>
+                {{ page.explore_graph }}
+            </div>
+            {% endif %}
+
             <div class="col-lg-10">
                 <hr>
                 <p class="text">Did you enjoy this story? Appreciate by clapping and share with others.</p>
@@ -72,8 +80,11 @@
             </div>
             {% endif %}
             {% endfor %}
+            <div class="col-lg-10">
+                <p class="text">You can also check out my <a href="{{ site.url }}">other stories here.</a></p>
+                <hr>
+            </div>
 
-            <hr>
             {% endif %}
 
 
@@ -90,9 +101,10 @@
                     {{ "Visualisation made with [Flourish](https://flourish.studio/) and Scrollama." | markdownify }}
                     {% endif %}
                 </p>
-                <div class="d-flex justify-content-end"> <a class="links" style="font-size:24px" href="#"
-                        target="_self">🔝</a></div>
+
             </div>
+            <div class="d-flex justify-content-end"> <a class="links" style="font-size:24px" href="#"
+                    target="_self">🔝</a></div>
         </div>
     </div>
 
