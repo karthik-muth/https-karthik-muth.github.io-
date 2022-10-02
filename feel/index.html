@@ -9,18 +9,20 @@ group countries by regions - like it was done in the story. Use Filter if you wa
 from a certain region. You can
 also search for a country on the top left.'
 explore_graph: <div class="flourish-embed" data-src="story/1651537"></div>
+scrolly_graph: https://flo.uri.sh/story/1651081/embed#slide-0
+
 steps:
 - 'People from 122 countries –coloured by regions– were surveyed to discover the emotional state worldwide.'
-- 'The question was: <b>"Did you experience the following feelings during a lot of the day yesterday?"</b> In the
-following steps, you will see the percentage of people from each country that said <b>"yes"</b> for various feelings
+- 'The question was: **"Did you experience the following feelings during a lot of the day yesterday?"** In the
+following steps, you will see the percentage of people from each country that said **"yes"** for various feelings
 like anger, stress, etc.'
-- 'On average, more people from Latin America & Caribbean said they <b>smiled</b> more than other regions. North
+- 'On average, more people from Latin America & Caribbean said they **smiled** more than other regions. North
 Americans followed them. The further to the right, the more –they said– they experienced the feeling.'
-- 'North Americans said they experience more <b>stress</b> than other regions.'
+- 'North Americans said they experience more **stress** than other regions.'
 - 'and people from Asia –Kazakhstan, Kyrgyz Republic, Uzbekistan, Mongolia and Indonesia– experienced the least amount
-of <b>stress</b>.'
-- 'When it comes to <b>learning or doing interesting</b> things, meet people from the Philippines and Senegal.'
-- 'Icelandic, Danish and Paraguayans said they <b>enjoyed</b> the most.'
+of **stress**.'
+- 'When it comes to **learning or doing interesting** things, meet people from the Philippines and Senegal.'
+- 'Icelandic, Danish and Paraguayans said they **enjoyed** the most.'
 ---
 
 
@@ -29,19 +31,6 @@ of <b>stress</b>.'
         <div class="col-11">
             <div class="flourish-embed flourish-quiz" data-src="visualisation/10884097"></div>
         </div>
-        <div class="col" id="scrolly__section">
-            <div class="scrolly__chart">
-                <iframe scrolling="no" src="https://flo.uri.sh/story/1651081/embed#slide-0"></iframe>
-            </div>
-            <div class="scrolly__content">
-                {% for i in page.steps %}
-                <div class="step">
-                    <div class="text-block">
-                        <p>{{ i }}</p>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+        {% include scrolly.html %}
     </div>
 </div>
