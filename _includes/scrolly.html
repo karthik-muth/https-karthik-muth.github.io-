@@ -1,0 +1,12 @@
+<div class="col-12" id="scrolly__section">
+    <div class="scrolly__chart">
+        <iframe scrolling="no" src="{{ page.scrolly_graph }}"></iframe>
+    </div>
+    <div class=" scrolly__content">
+        {% for i in page.steps %}
+        <div class="step">
+            <div class="text-block">{{ i | markdownify }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

@@ -8,17 +8,20 @@ explore_text: 'Here you can compare the net-worth of the 8 billionaires. Hover o
 explore_graph: <div class="flourish-embed" data-src="story/1699169/embed#slide-6"></div>
 
 steps:
-- '<b>Elon Musk</b> –the richest person in the world– lost more than $80 billion this year. There are only 12 people in
+- '**Elon Musk** –the richest person in the world– lost more than $80 billion this year. There are only 12 people in
 the
 world that own so much. Yet he is nearly nine times richer than he was before the pandemic hit.'
-- '<b>Jeff Bezos</b> –the second richest person and founder of Amazon– lost more than $30 billion this year. Yet, he is
+- '**Jeff Bezos** –the second richest person and founder of Amazon– lost more than $30 billion this year. Yet, he is
 50%
 richer than he was before the pandemic.'
-- '<b>Bill Gates</b> –co-founder of Microsoft– gave away $35 billion to his foundation in 2021. He is 30% richer now.'
+- '**Bill Gates** –co-founder of Microsoft– gave away $35 billion to his foundation in 2021. He is 30% richer now. He
+has been the richest person for 18 of the 24 years between 1995 to 2017.'
 - 'Larry Page and Sergey Brin – Google founders, Oracle founder Larry Ellison and former Microsoft CEO Steve Ballmer
 have
 all seen big gains in their values.'
-- 'Even <b>Mark Zuckerberg</b>, who lost the most this year, has made a 22% gain.'
+- 'Even **Mark Zuckerberg**, who lost the most this year, has did a 22% gain.'
+
+scrolly_graph: https://flo.uri.sh/story/1699169/embed#slide-0
 ---
 
 {% include scripts_datawrapper.html %}
@@ -31,19 +34,7 @@ all seen big gains in their values.'
         scrolling="no" frameborder="0" style="min-width: 100% !important; border: none;"></iframe>
     </div>
 
-    <div class="col-12" id="scrolly__section">
-      <div class="scrolly__chart">
-        <iframe scrolling="no" src="https://flo.uri.sh/story/1699169/embed#slide-0"></iframe>
-      </div>
-      <div class="scrolly__content">
-        {% for i in page.steps %}
-        <div class="step">
-          <div class="text-block">
-            <p>{{ i }}</p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
+    {% include scrolly.html %}
+
   </div>
 </div>
