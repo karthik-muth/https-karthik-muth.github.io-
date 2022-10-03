@@ -9,3 +9,6 @@ vendor
 .DS_Store
 scripts
 test
+
+# Local Netlify folder
+.netlify
