@@ -2,8 +2,25 @@
 layout: page
 title: How men became more right-wing than women in Sweden
 order: 40
-labels: Polarisation Political-position Party-sympathy
+labels: Polarisation Political-position Party-preference
 techniques: Scrolly
+explore_text: 'Choose a party and compare the part preferences for men and women.'
+explore_graph: <div class="flourish-embed" data-src="story/1629434/embed#slide-7"></div>
+scrolly_graph: https://flo.uri.sh/story/1629434/embed#slide-0
+
+steps:
+- 'The percentage of men that would vote for **Sweden Democrats** has increased by more than three times since 2010. The
+percentage point difference between men and women in the survey taken in May 2022 is 13.7%.'
+- 'The **Social Democrats** has the next biggest difference. While the party received nearly the same percentage of
+sympathizers before 2010 from both genders, the difference is more than ten percent, this year.'
+- 'A similar trend can be seen for the **Left Party** since 2010.'
+- 'The **Green Party** has always had a higher degree of female sympathizers, and it remains the same.'
+- 'Historically, the **Moderate party** had a higher proportion of male sympathizers. But in the latest survey, the
+party, along with **Christian Democrats, Liberals and Center Party**, have an approximately equal proportion of male and
+female sympathizers.'
+- 'The latest survey shows that both the left and right blocks would get a clear majority from women and men
+respectively.'
+
 ---
 
 
@@ -27,69 +44,8 @@ techniques: Scrolly
   </div>
 </div>
 
-<div class="container-fluid py-5">
-  <div id="scrolly__section">
-    <div class="scrolly__chart">
-      <iframe scrolling="no" src="https://flo.uri.sh/story/1629434/embed#slide-0"></iframe>
-    </div>
-    <div class="scrolly__content">
-      <div class="step" data-step="0">
-        <div class="text-block pa-2">
-          <p>
-            The percentage of men that would vote for Sweden Democrats has
-            increased by more than three times since 2010. The percentage
-            point difference between men and women in the survey taken in
-            May 2022 is 13.7%.
-          </p>
-        </div>
-      </div>
-      <div class="step" data-step="1">
-        <div class="text-block pa-2">
-          <p>
-            The Social Democrats has the next biggest difference. While
-            the party received nearly the same percentage of sympathizers
-            before 2010 from both genders, the difference is more than ten
-            percent, this year.
-          </p>
-        </div>
-      </div>
-      <div class="step" data-step="2">
-        <div class="text-block pa-2">
-          <p>
-            A similar trend can be seen for the Left Party since 2010.
-          </p>
-        </div>
-      </div>
-      <div class="step" data-step="3">
-        <div class="text-block pa-2">
-          <p>
-            The Green Party has always had a higher degree of female
-            sympathizers, and it remains the same.
-          </p>
-        </div>
-      </div>
-      <div class="step" data-step="4">
-        <div class="text-block pa-2">
-          <p>
-            Historically, the Moderate party had a higher proportion of
-            male sympathizers. But in the latest survey, the party, along
-            with Christian Democrats, Liberals and Center Party, have an
-            approximately equal proportion of male and female
-            sympathizers.
-          </p>
-        </div>
-      </div>
-      <div class="step" data-step="5">
-        <div class="text-block pa-2">
-          <p>
-            The latest survey shows that both the left and right blocks
-            would get a clear majority from women and men respectively.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+{% include scrolly.html %}
+
 
 
 <div class="container py-5">
