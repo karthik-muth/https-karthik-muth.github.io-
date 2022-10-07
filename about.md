@@ -15,7 +15,7 @@ When I’m not working, I enjoy being in nature, hiking in the mountains or by t
 #### I'm looking for work
 I'm looking for freelance or fulltime work as a data journalist/storyteller or something related.
 
-Do you want to turn your information/reports into a visual story? Are you a content creator that is looking for a collaborator? Get in touch.
+Do you want to turn your data/information/report into a visual story? Are you a content creator that is looking for a collaborator? Get in touch.
 
 **Software and technology:** I have more than a decade's work experience in several platforms and programming languages. Here is my [LinkedIn profile](https://www.linkedin.com/in/papanash/).
 

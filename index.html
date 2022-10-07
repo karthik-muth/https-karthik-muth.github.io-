@@ -46,13 +46,14 @@ title: Home
     {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
     {% endif %}
 
-    <div class="col">
+    <div class="col-11">
       <div class="card"
         onclick="window.open(location.href='{{ site.url }}{{ i.dir }}', '_blank', 'noopener,noreferrer')">
         <div class="row">
 
           <div class="col-md-4">
-            <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img img-fluid rounded-start" alt="{{ img_alt }}">
+            <img src="{{ site.url }}{{ i.dir }}{{ img }}" class="card-img img-fluid rounded-start"
+              style="width: 300px;height: 200px;" alt="{{ img_alt }}">
           </div>
 
           <div class="col">
@@ -67,7 +68,6 @@ title: Home
               {% for t in labels %}
               <span class="badge bg-success bg-opacity-25">{{ t }}</span>
               {% endfor %}
-
             </div>
           </div>
         </div>
@@ -79,19 +79,26 @@ title: Home
 
 
     {% for i in site.data.medium %}
-    <div class="col">
+    <div class="col-11">
       <div class="card" onclick="window.open(location.href='{{ i.link }}', '_blank', 'noopener,noreferrer')">
         <div class="row">
           <div class="col-md-4">
-            <img src="{{ site.url }}/assets/images/{{ i.name }}.jpg" class="card-img img-fluid rounded-start" alt="...">
+            <img src="{{ site.url }}/assets/images/{{ i.name }}.jpg" class="card-img img-fluid rounded-start"
+              style="width: 300px;height: 200px;" alt="...">
           </div>
+
           <div class="col">
             <div class="card-body">
               <p class="fs-5 fw-semibold"> {{ i.title }} </p>
-              {% for t in i.tags %}
-              <span class="badge bg-primary bg-opacity-25">{{ t.name }}</span>
+              {% assign labels = i.labels | split: ' ' %}
+              {% for t in labels %}
+              <span class="badge bg-primary bg-opacity-25">{{ t }}</span>
               {% endfor %}
 
+              {% assign labels = i.techniques | split: ' ' %}
+              {% for t in labels %}
+              <span class="badge bg-success bg-opacity-25">{{ t }}</span>
+              {% endfor %}
             </div>
           </div>
         </div>
