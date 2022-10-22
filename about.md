@@ -12,18 +12,16 @@ When I’m not working, I enjoy being in nature, hiking in the mountains or by t
 <br><br><br>
 
 
-#### I'm looking for work
-I'm looking for freelance or fulltime work as a data journalist/storyteller or something related.
+#### I'm looking for freelance opportunities
+Do you want to turn your data/information/report into a visual story? Are you a content creator that is looking for a collaborator? My skills include:
 
-Do you want to turn your data/information/report into a visual story? Are you a content creator that is looking for a collaborator? Get in touch.
-
-**Software and technology:** I have more than a decade's work experience in several platforms and programming languages. Here is my [LinkedIn profile](https://www.linkedin.com/in/papanash/).
+**Software and technology:** I have more than a decade's work experience in several platforms and programming languages. [LinkedIn profile](https://www.linkedin.com/in/papanash/).
 
 **Data journalism:** This website is my portfolio as a data journalist and it's under development. You can find the stories I created as part of the major project for my Master’s in data journalism [here]({{ site.url }}/elections).
 <br><br><br>
 
-#### I'm also creating a platform for publishing
-I'm planning to create a platform like [Medium](https://medium.com/) for publishing **visual** articles with customizable code. Are you a content creator/journalist who wants to publish your articles on a free platform? Get in touch. Note that Medium is not entirely free for readers and as a publisher, you can't customize your articles with code.
+#### I'm also creating a media platform
+I'm creating a platform with a focus on creating equitable, inclusive and visual journalism in Sweden. Are you a content creator/journalist who wants to publish your articles? Get in touch.
 <br><br><br>
 
 #### Techniques and tools used in this website
