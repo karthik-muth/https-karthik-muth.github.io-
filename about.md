@@ -11,6 +11,9 @@ interactive storytelling techniques.
 When I’m not working, I enjoy being in nature, hiking in the mountains or by the sea doing activities like 🧗 ⛷ ⛺️ 🛶 🏊.
 <br><br><br>
 
+#### I'm creating a media platform
+I'm creating a platform with a focus on creating equitable, inclusive and visual journalism in Sweden. Are you interested in the idea and want to know more? Are you a content creator/journalist who wants to publish on a platform like [Substack](substack.com)? Get in touch.
+<br><br><br>
 
 #### I'm looking for freelance opportunities
 Do you want to turn your data/information/report into a visual story? Are you a content creator that is looking for a collaborator? My skills include:
@@ -20,9 +23,6 @@ Do you want to turn your data/information/report into a visual story? Are you a 
 **Data journalism:** This website is my portfolio as a data journalist and it's under development. You can find the stories I created as part of the major project for my Master’s in data journalism [here]({{ site.url }}/elections).
 <br><br><br>
 
-#### I'm also creating a media platform
-I'm creating a platform with a focus on creating equitable, inclusive and visual journalism in Sweden. Are you a content creator/journalist who wants to publish your articles? Get in touch.
-<br><br><br>
 
 #### Techniques and tools used in this website
 This website was created with a lot of care. It was possible because of the support of the following open-source and/or free applications:
