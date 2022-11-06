@@ -1,4 +1,4 @@
 
 **Method and data**
 
-Data from [Avanza](https://blogg.avanza.se/hur-mycket-sparar-andra-i-din-alder/).
+Data from [Avanza's](https://blogg.avanza.se/) reports which are linked in the charts.
