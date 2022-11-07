@@ -10,3 +10,5 @@ Moa Langemark, an Analyst at Avanza [said](https://investors.avanza.se/media/pre
 
 Moa adds that women, on average, save less than men every month which is one of the factors as to why women have less capital.
 
+Average monthly savings as of Feb 2022 for women: 2100 SEK and men: 2700 SEK.
+
