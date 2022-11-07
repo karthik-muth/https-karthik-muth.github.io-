@@ -34,11 +34,13 @@
     <!--explore, clapping, Related stories, feedback, method, vis credits -->
     <div class="container-fluid py-3">
         <div class="row justify-content-center gy-5">
+            <!--explore-->
             {% if page.explore_text %}
             <div class="col-lg-10 col-11">
                 <p class="heading">Explore</p>
                 <p>{{ page.explore_text }}</p>
-                {{ page.explore_graph }}
+                <div class="flourish-embed" data-src="{{ page.explore_graph }}"></div>
+
             </div>
             {% endif %}
 
