@@ -19,7 +19,23 @@
             {% else %}
             <p class="title">{{ page.title }}</p>
             {% endif %}
+            {% if page.byline %}
+            <p class="text-center">
+                <span class="fw-semibold">{{ page.byline }}</span> –
+                <span>{{ page.published }}</span>
+            </p>
+            {% endif %}
+        </div>
 
+        <figure class="figure">
+            <img src="{{ site.url }}{{ page.dir }}{{ page.image_main }}" class="figure-img img-fluid"
+                alt="Diverse illustrated faces of kids showing diverse emotions">
+            <figcaption class="figure-caption text-center">Emotions around the globe - Illustration by Gunilla Hagström
+            </figcaption>
+        </figure>
+
+
+        <div class="col-lg-7 col-11">
             <br /><br />
             {% capture intro %}
             {% include_relative intro.md %}
