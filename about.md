@@ -6,9 +6,9 @@ title: About
 #### Hello 👋,
 
 I'm **Karthik Muthuswamy**, a freelance visual journalist and software developer based in Stockholm. I enjoy creating visual stories using
-interactive storytelling techniques.
+interactive storytelling techniques. All the stories and analyses on this website are created by me unless stated otherwise.
 
-When I’m not working, I enjoy being in nature, hiking in the mountains or by the sea doing activities like 🧗 ⛷ ⛺️ 🛶 🏊.
+I'm an outdoor person. When I’m not working, I enjoy being in nature, hiking in the mountains or by the sea doing activities like 🧗 ⛷ ⛺️ 🛶 🏊.
 <br><br><br>
 
 #### I'm creating a media platform
