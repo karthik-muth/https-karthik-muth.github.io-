@@ -5,7 +5,7 @@
 <head>
     {% include head.html %}
     <!-- dir name is the slug of a page -->
-    <title>karthik | {{ page.dir | slugify }}</title>
+    <title>Explained by Karthik | {{ page.title | truncatewords: 10 }}</title>
 </head>
 
 <body>
