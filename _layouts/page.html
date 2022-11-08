@@ -22,10 +22,13 @@
 
             {% if page.byline %}
             <p class="text-center">
-                <span class="fw-semibold">{{ page.byline }}</span> –
+                <span class="fw-semibold">By {{ page.byline }}</span> –
                 <span>{{ page.published }}</span>
             </p>
+            {% else %}
+            <p class="text-center"><span class="fw-semibold">By Karthik Muthuswamy</span></p>
             {% endif %}
+
         </div>
 
         {% if page.image_main %}
