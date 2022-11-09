@@ -1,9 +1,8 @@
 ---
 layout: text_page
-title: About
+title: Hello 👋
 ---
 
-#### Hello 👋,
 I'm **Karthik Muthuswamy**, a freelance visual journalist and software developer based in Stockholm. I enjoy creating visual stories using
 interactive storytelling techniques. All the stories and analyses on this website are created by me unless stated otherwise.
 
