@@ -4,25 +4,29 @@ title: About
 ---
 
 #### Hello 👋,
-
 I'm **Karthik Muthuswamy**, a freelance visual journalist and software developer based in Stockholm. I enjoy creating visual stories using
 interactive storytelling techniques. All the stories and analyses on this website are created by me unless stated otherwise.
 
 I'm an outdoor person. When I’m not working, I enjoy being in nature, hiking in the mountains or by the sea doing activities like 🧗 ⛷ ⛺️ 🛶 🏊.
 <br><br><br>
 
-#### I'm creating a media platform
+#### I'm looking for freelance opportunities
+Do you want to turn your data/information/report into a visual story? Get in touch.
+<br><br><br>
+
+#### I'm also creating a media platform
 I'm creating a platform with a focus on creating equitable, inclusive and visual journalism in Sweden. Are you interested in the idea and want to know more? Are you a content creator/journalist who wants to publish on a platform like [Substack](substack.com)? Get in touch.
 <br><br><br>
 
-#### I'm looking for freelance opportunities
-Do you want to turn your data/information/report into a visual story? Are you a content creator that is looking for a collaborator? My skills include:
+#### Education and experience
+I have two Master's: MS in Computer Science and MA in Data Journalism.
 
-**Software and technology:** I have more than a decade's work experience in several platforms and programming languages. [LinkedIn profile](https://www.linkedin.com/in/papanash/).
+I have been working with software/data development since 2011. In addition to that, I have also been working with data journalism since 2020.
 
-**Data journalism:** This website is my portfolio as a data journalist and it's under development. You can find the stories I created as part of the major project for my Master’s in data journalism [here]({{ site.url }}/elections).
+**Software and technology:** I have experience in several platforms and programming languages. [LinkedIn profile](https://www.linkedin.com/in/papanash/).
+
+**Data journalism:** This website is my portfolio as a data journalist. You can find the stories I created as part of the major project for my Master’s in data journalism [here]({{ site.url }}/elections).
 <br><br><br>
-
 
 #### Techniques and tools used in this website
 This website was created with a lot of care. It was possible because of the support of the following open-source and/or free applications:
