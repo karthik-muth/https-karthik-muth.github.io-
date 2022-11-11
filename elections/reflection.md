@@ -26,13 +26,13 @@ Integration was one of the most discussed political issues. The political discou
 From an immigrant perspective(because I‘m one), I reported on crime, integration, polarisation and gender inequality in a series of analyses.
 
 I created a visual history to take the readers back to the time:
-* when [multiculturalism law was adopted]({{ site.url }}/multiculturalism)
-* when [men were more left-wing than women]({{ site.url }}/left_right_identification)
-* when [environment was the most important issue]({{ site.url }}/societal_problems).
+* when [multiculturalism law was adopted](/multiculturalism)
+* when [men were more left-wing than women](/left_right_identification)
+* when [environment was the most important issue](/societal_problems).
 
 I visualised the different perspectives today –including the political issues according to different people groups– that did not get proportional attention in mainstream media.
 
-I highlighted [the gender inequality in the lesser-known local government]({{ site.url }}/municipal_councils) in one of the most gender-equal countries in the world.
+I highlighted [the gender inequality in the lesser-known local government](/municipal_councils) in one of the most gender-equal countries in the world.
 <br><br>
 
 #### What's next?
@@ -46,8 +46,8 @@ This leads me to one of my next projects: to understand the role of Swedish medi
 Thank you for reading this far. Do you know something that can contribute to this project? Get in touch. Do you agree but don't have much to say? let me know by clapping.
 
 <div>
-<applause-button url="{{ site.url }}{{ page.dir }}{{ page.name }}" multiclap="true"
+<applause-button url="{{ page.dir }}{{ page.name }}" multiclap="true"
     style="width: 44px; height: 44px;" />
 </div><Br>
 
-*You can find all my elections stories [here]({{ site.url }}/elections).*
+*You can find all my elections stories [here](/elections).*

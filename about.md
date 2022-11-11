@@ -24,7 +24,7 @@ I have been working with software/data development since 2011. In addition to th
 
 **Software and technology:** I have experience in several platforms and programming languages. [LinkedIn profile](https://www.linkedin.com/in/papanash/).
 
-**Data journalism:** This website is my portfolio as a data journalist. You can find the stories I created as part of the major project for my Master’s in data journalism [here]({{ site.url }}/elections).
+**Data journalism:** This website is my portfolio as a data journalist. You can find the stories I created as part of the major project for my Master’s in data journalism [here](/elections).
 <br><br><br>
 
 #### Techniques and tools used in this website
@@ -33,7 +33,7 @@ This website was created with a lot of care. It was possible because of the supp
 - Visualisation tools: Flourish, Datawrapper, Plotly, RawGraphs, Scrollama
 - Web development: Javascript, Bootstrap, Jekyll, Colin Eberhardt's Applause button
 
-I have explained why I create stories in the way I do [here](https://karthik-m.medium.com/a-picture-is-worth-a-thousand-words-whats-a-data-viz-worth-6ea3b0d5c66?source=friends_link&sk=60a827d05b1b5a41d5ae43c5c1911553), and about the interactive techniques I have used [here]({{ site.url }}/elections/#collapseOne).
+I have explained why I create stories in the way I do [here](https://karthik-m.medium.com/a-picture-is-worth-a-thousand-words-whats-a-data-viz-worth-6ea3b0d5c66?source=friends_link&sk=60a827d05b1b5a41d5ae43c5c1911553), and about the interactive techniques I have used [here](/elections/#collapseOne).
 <br><br><br>
 
 #### Contact
