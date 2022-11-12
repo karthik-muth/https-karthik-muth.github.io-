@@ -46,63 +46,17 @@ title: Home
     {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
     {% endif %}
 
-    <div class="col-11">
-      <div class="card" onclick="window.open(location.href='{{ i.dir }}', '_blank', 'noopener,noreferrer')">
-        <div class="row">
-
-          <div class="col-md-4">
-            <img src="{{ i.dir }}{{ img }}" class="card-img img-fluid rounded-start" style="width: 300px;height: 200px;"
-              alt="{{ img_alt }}">
-          </div>
-
-          <div class="col">
-            <div class="card-body">
-              <p class="fs-5 fw-semibold"> {{ i.title }} </p>
-              {% assign labels = i.labels | split: ' ' %}
-              {% for t in labels %}
-              <span class="badge bg-primary bg-opacity-25">{{ t }}</span>
-              {% endfor %}
-
-              {% assign labels = i.techniques | split: ' ' %}
-              {% for t in labels %}
-              <span class="badge bg-success bg-opacity-25">{{ t }}</span>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% assign img_src = i.dir | append: img %}
+    {% assign location = i.dir %}
+    {% include card.html %}
 
     {% endif %}
     {% endfor %}
 
-
     {% for i in site.data.medium %}
-    <div class="col-11">
-      <div class="card" onclick="window.open(location.href='{{ i.link }}', '_blank', 'noopener,noreferrer')">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="/assets/images/{{ i.name }}.jpg" class="card-img img-fluid rounded-start"
-              style="width: 300px;height: 200px;" alt="...">
-          </div>
-
-          <div class="col">
-            <div class="card-body">
-              <p class="fs-5 fw-semibold"> {{ i.title }} </p>
-              {% assign labels = i.labels | split: ' ' %}
-              {% for t in labels %}
-              <span class="badge bg-primary bg-opacity-25">{{ t }}</span>
-              {% endfor %}
-
-              {% assign labels = i.techniques | split: ' ' %}
-              {% for t in labels %}
-              <span class="badge bg-success bg-opacity-25">{{ t }}</span>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% assign img_src = "/assets/images/" | append: i.name | append:".jpg" %}
+    {% assign location = i.link %}
+    {% include card.html %}
     {% endfor %}
 
   </div>
