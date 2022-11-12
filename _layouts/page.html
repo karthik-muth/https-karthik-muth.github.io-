@@ -94,46 +94,13 @@
             {% assign r1 = site.pages | sort:"order" | where_exp: "item", "item.order > page.order" | first %}
             {% assign r2 = site.pages | sort:"order" | where_exp: "item", "item.order > page.order" | shift | first %}
             {% assign r_list = "" | split: ',' | push: r1 | push: r2 %}
+
             {% if r1.dir %}
-
-
             <div class="col-11">
                 <p class="heading text-center py-5 fw-semibold"><b>You may also like</b></p>
                 {% for i in r_list %}
                 {% if i.dir %}
-
-                {% if i.image %}
-                {% assign img = "png.png" %}
-                {% assign img_alt = i.image_alt %}
-                {% else %}
-                {% assign img = "gif.gif" %}
-                {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
-                {% endif %}
-
-                <div class="card" onclick="window.open(location.href='{{ i.dir }}', '_blank', 'noopener,noreferrer')">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <img src="{{ i.dir }}{{ img }}" class="card-img img-fluid rounded-start"
-                                style="width: 300px;height: 200px;" alt="{{ img_alt }}">
-                        </div>
-
-                        <div class="col">
-                            <div class="card-body">
-                                <p class="fs-5 fw-semibold"> {{ i.title }} </p>
-                                {% assign labels = i.labels | split: ' ' %}
-                                {% for t in labels %}
-                                <span class="badge bg-primary bg-opacity-25">{{ t }}</span>
-                                {% endfor %}
-
-                                {% assign labels = i.techniques | split: ' ' %}
-                                {% for t in labels %}
-                                <span class="badge bg-success bg-opacity-25">{{ t }}</span>
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {% include card.html %}
                 {% endif %}
                 {% endfor %}
             </div>
