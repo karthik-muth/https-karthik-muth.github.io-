@@ -12,133 +12,20 @@ title: Sweden – explained visually
             <p class="title">{{ page.title }}</p>
             <br /><br />
         </div>
+        <p class="fst-italic text-secondary">Labels indicate the <span
+                class="badge bg-primary bg-opacity-25">topics</span>
+            of the
+            stories and
+            <span class="badge bg-success bg-opacity-25">techniques</span> used.
+        </p>
 
-        <div class="col-11">
-            <div class="card" onclick="location.href='/multiculturalism';">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="/multiculturalism/gif.gif" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col">
-                        <div class="card-body">
-                            <p class="fs-5 fw-semibold">
-                                A visual history of "multiculturalism" in Sweden - and the
-                                society's attitude towards it
-                            </p>
-                            <span class="badge">Immigration</span>
-                            <span class="badge">Integration</span>
-                            <span class="badge">Diversity</span>
-                            <span class="badge">Scrolly</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-11">
-            <div class="card" onclick="location.href='/societal_problems';" target="_blank">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="/societal_problems/gif.gif" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col">
-                        <div class="card-body">
-                            <p class="fs-5 fw-semibold">
-                                Crime is the most important issue – but it depends on who you
-                                ask
-                            </p>
-                            <span class="badge">Crime</span>
-                            <span class="badge">societal problems</span>
-                            <span class="badge">Environment</span>
-                            <span class="badge">Scrolly</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-11">
-            <div class="card" onclick="location.href='/left_right_identification';">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="/left_right_identification/gif.gif" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col">
-                        <div class="card-body">
-                            <p class="fs-5 fw-semibold">How men became more right-wing than women in Sweden</p>
-                            <span class="badge">Polarisation</span>
-                            <span class="badge">Political position</span>
-                            <span class="badge">Party sympathy</span>
-                            <span class="badge ">Scrolly</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-11">
-            <div class="card" onclick="location.href='/municipal_councils'
-                    ;">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="/municipal_councils/gif.gif" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col">
-                        <div class="card-body">
-                            <p class="fs-5 fw-semibold">How gender equal are the Swedish municipal councils?</p>
-                            <span class="badge">Gender inequality</span>
-                            <span class="badge">Local government</span>
-                            <span class="badge">Party representation</span>
-                            <span class="badge ">Maps</span>
-                            <span class="badge ">Scrolly</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-11">
-            <div class="card" onclick="location.href='/trends'
-                    ;">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="/trends/png.png" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col">
-
-                        <div class="card-body">
-                            <p class="fs-5 fw-semibold">Ebba Busch is the most googled politician ahead of the elections
-                            </p>
-                            <span class="badge">Media analysis</span>
-                            <span class="badge">Party leaders</span>
-                            <span class="badge ">Live</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-11">
-            <div class="card" onclick="location.href='/diversity'
-                    ;">
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="/diversity/png.png" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col">
-
-                        <div class="card-body">
-                            <p class="fs-5 fw-semibold">Explore: How diverse is your municipality?
-                            </p>
-                            <span class="badge">Society</span>
-                            <span class="badge">Diversity</span>
-                            <span class="badge ">Maps</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for i in sorted_pages %}
+        <!-- order 0 = not published -->
+        {% if i.order and i.edition == "Sweden" %}
+        {% include card.html %}
+        {% endif %}
+        {% endfor %}
 
     </div>
 </div>

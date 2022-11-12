@@ -33,29 +33,13 @@ title: Home
     </p>
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for i in sorted_pages %}
-
-    <!-- order 0 won't be included -->
+    <!-- order 0 = not published -->
     {% if i.order %}
-
-    <!-- default is gif if there is no image -->
-    {% if i.image %}
-    {% assign img = "png.png" %}
-    {% assign img_alt = i.image_alt %}
-    {% else %}
-    {% assign img = "gif.gif" %}
-    {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
-    {% endif %}
-
-    {% assign img_src = i.dir | append: img %}
-    {% assign location = i.dir %}
     {% include card.html %}
-
     {% endif %}
     {% endfor %}
 
     {% for i in site.data.medium %}
-    {% assign img_src = "/assets/images/" | append: i.name | append:".jpg" %}
-    {% assign location = i.link %}
     {% include card.html %}
     {% endfor %}
 
