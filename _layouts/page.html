@@ -61,7 +61,7 @@
         <div class="row justify-content-center gy-5">
             <!--explore-->
             {% if page.explore_text %}
-            <div class="col-lg-10 col-11">
+            <div class="col-11">
                 <hr>
                 <p class="heading">Explore</p>
                 <p>{{ page.explore_text }}</p>
@@ -70,14 +70,14 @@
             </div>
             {% endif %}
 
-            <div class="col-lg-10">
+            <div class="col-11">
                 <hr>
                 <p>Did you enjoy this story? Appreciate by clapping and share with others.</p>
                 <applause-button url="{{ page.dir }}" multiclap="true" style="width: 44px; height: 44px;" />
             </div>
 
 
-            <div class="col-lg-10 col-11">
+            <div class="col-11">
                 {% capture md %}
                 {% include_relative outro.md %}
                 {% include feedback.md %}
@@ -104,7 +104,7 @@
                 {% endif %}
                 {% endfor %}
             </div>
-            <div class="col-lg-10">
+            <div class="col-11">
                 <p>You can also check out my <a href="{{ '/' | absolute_url }}">other stories here.</a></p>
                 <div class="d-flex justify-content-end"> <a class="links" style="font-size:24px" href="#"
                         target="_self">🔝</a>
