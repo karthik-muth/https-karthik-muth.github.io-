@@ -1,10 +1,12 @@
 {% if i.link %}
 <!-- external - medium -->
-{% assign img_src = "/assets/images/" | append: i.name | append:".jpg" %}
 {% assign location = i.link %}
+{% assign img_src = "/assets/images/" | append: i.name | append:".jpg" %}
 
 {% else %}
 <!-- internal -->
+{% assign location = i.dir %}
+
 {% if i.image %}
 <!-- default is gif if there is no image -->
 {% assign img_src = i.dir | append: "png.png" %}
@@ -14,8 +16,7 @@
 {% assign img_alt = "Animated image of the charts in the scrolly section of the article." %}
 {% endif %}
 
-{% assign location = i.dir %}
-
+{% endif %}
 
 <div class="col-11">
     <div class="card" onclick="window.open(location.href='{{ location }}', '_blank', 'noopener,noreferrer')">
@@ -42,4 +43,3 @@
         </div>
     </div>
 </div>
-{% endif %}

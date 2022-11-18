@@ -3,6 +3,7 @@ layout: text_page
 title: Hello 👋
 ---
 
+
 I'm **Karthik Muthuswamy**, a freelance visual journalist and software developer based in Stockholm. I enjoy creating visual stories using
 interactive storytelling techniques. All the stories and analyses on this website are created by me unless stated otherwise.
 
@@ -22,7 +23,7 @@ I have two Master's: MS in Computer Science and MA in Data Journalism.
 
 I have been working with software/data development since 2011. In addition to that, I have also been working with data journalism since 2020.
 
-**Software and technology:** I have experience in several platforms and programming languages. [LinkedIn profile](https://www.linkedin.com/in/papanash/).
+**Software and technology:** I have experience in several platforms and programming languages. [My LinkedIn profile](https://www.linkedin.com/in/papanash/).
 
 **Data journalism:** This website is my portfolio as a data journalist. You can find the stories I created as part of the major project for my Master’s in data journalism [here](/elections).
 <br><br><br>
