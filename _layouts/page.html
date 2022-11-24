@@ -96,21 +96,19 @@
             {% assign r_list = "" | split: ',' | push: r1 | push: r2 %}
 
             {% if r1.dir %}
+            <p class="heading text-center py-5 fw-semibold"><b>You may also like</b></p>
+            {% for i in r_list %}
+            {% if i.dir %}
+            {% include card.html %}
+            {% endif %}
+            {% endfor %}
             <div class="col-11">
-                <p class="heading text-center py-5 fw-semibold"><b>You may also like</b></p>
-                {% for i in r_list %}
-                {% if i.dir %}
-                {% include card.html %}
-                {% endif %}
-                {% endfor %}
-            </div>
-            <div class="col-11">
-                <p>You can also check out my <a href="{{ '/' | absolute_url }}">other stories here.</a></p>
+                <p class="text-center">You can also check out my <a href="{{ '/' | absolute_url }}">other stories
+                        here.</a></p>
                 <div class="d-flex justify-content-end"> <a class="links" style="font-size:24px" href="#"
                         target="_self">🔝</a>
                 </div>
             </div>
-
             {% endif %}
 
 

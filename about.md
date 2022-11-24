@@ -15,7 +15,7 @@ Do you want to turn your data/information/report into a visual story? Get in tou
 <br><br><br>
 
 #### I'm also creating a media platform
-I'm creating a platform with a focus on creating equitable, inclusive and visual journalism in Sweden. Are you interested in the idea and want to know more? Are you a content creator/journalist who wants to publish on a platform like [Substack](substack.com)? Get in touch.
+I'm creating a platform with a focus on creating equitable, inclusive and visual journalism in Sweden. Are you interested in the idea and want to know more? Are you a content creator/journalist who wants to publish on a platform like [Substack](https://substack.com)? Get in touch.
 <br><br><br>
 
 #### Education and experience
