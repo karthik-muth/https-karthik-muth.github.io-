@@ -1,6 +1,0 @@
-
-To discover people's emotional state worldwide, a [research project](https://www.gallup.com/analytics/349487/gallup-global-happiness-center.aspx) asked hundreds of thousands of people over a year: **“Did you experience the following feelings during a lot of the day yesterday?”** The findings from 2021 offered surprising insights – you can explore them after the quiz.
-
-Guess what the people from your country felt in the following six questions, and find out how well you feel them!
-
-*You get 10 points if your answer is around ± 10% of the correct answer. Don't forget to choose your country!*

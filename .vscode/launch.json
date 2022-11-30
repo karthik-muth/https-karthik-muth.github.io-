@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "jekyll",
+            "url": "http://localhost/:4080",
+            "restart": true,
+            "preLaunchTask": "jekyll",
+        }
+    ]
+}
+// Run starts and attaches to the localhost through preLaunchTask in tasks.json
+// killing terminal process kills the process and stops debug
+// no need to clean and rebuild
